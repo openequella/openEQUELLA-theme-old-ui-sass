@@ -1,0 +1,10 @@
+body.contribute {
+
+  // fix case of showing col2 on contribute only in integration
+  &.integration {
+    #col2 {
+      width: initial;
+      display: initial;
+    }
+  }
+}

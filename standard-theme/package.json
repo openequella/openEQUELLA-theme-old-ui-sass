@@ -1,0 +1,26 @@
+{
+  "name": "oeq-sass-theme-builder",
+  "version": "1.0.0",
+  "description": "Tool to build theme with Sass for OpenEquella",
+  "main": "index.js",
+  "scripts": {
+    "pre-build-css": "npm run clean-css",
+    "build-css": "node-sass-chokidar ./src/scss -o ./dist/css --output-style compressed --source-map true --source-map-embed --source-map-contents sass",
+    "post-build-css": "",
+    "pre-watch-css": "npm run clean-css",
+    "watch-css": "node-sass-chokidar ./src/scss -o ./dist/css --output-style compact --source-map true --source-map-embed --source-map-contents sass --watch --recursive",
+    "post-watch-css": "",
+    "pre-zip-css": "npm run build-css",
+    "zip-css": "node ./src/build/zip",
+    "post-zip-css": "",
+    "pre-clean-css": "",
+    "clean-css": "rimraf ./dist",
+    "post-clean-css": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass-chokidar": "^1.3.3",
+    "node-zip": "^1.1.1"
+  }
+}

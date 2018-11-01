@@ -1,0 +1,112 @@
+
+/** fix floating of col1, col2 **/
+.area {
+  @extend %w100;
+}
+/** remove min-width of wrapper **/
+#wrapper {
+  min-width: 0px;
+}
+/** box shadow to main area */
+#content {
+  @extend %shadow-5;
+}
+#content-body {
+  @extend %d-flex;
+  @extend %w100;
+  .area {
+    @extend %w100;
+  }
+  // Resource Summary - click on resource link
+  &.my-content-actions-layout,
+  &.itemsummary-layout,
+  &.wizard-layout {
+    #col1 {
+      @extend %remove-float;
+      @extend %wAuto;
+      @include flex-item(0,1,70%);
+      min-width: 0px;
+    }
+    #col2 {
+      @extend %remove-float;
+      @extend %wAuto;
+      @include flex-item(1,0,25%);
+      padding: 1rem;
+      #affix-div {
+        width: 100%;
+        &.affix {
+          position: relative !important;
+        }
+        &.affix-top {
+          position: relative !important;
+        }
+      }
+    }
+  }
+}
+
+.search-layout {
+  #col,
+  #col1 {
+    @extend %w100;
+
+    .searchresults-header {
+      @extend %d-flex;
+      background-color: $eq-secondary-darker;
+      color: $eq-white;
+      font-size: $font-md;
+      padding: 0.75rem; // bigger padding
+
+      #result-type-select {
+        margin-right: 1rem;
+        a {
+          text-decoration: underline;
+          color: $eq-white;
+
+          &:hover, &:focus {
+            color: $eq-primary-lighter;
+          }
+        }
+
+      } 
+      #searchresults-stats {
+        color: $eq-white;
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+  #col2 {
+    padding: 1rem;
+    .box {
+      @extend %w100;
+    }
+  }
+}
+
+
+/** panel look **/
+.box_head.noactions,
+.box_head.nominimise.noactions {
+  @extend %remove-border;
+  background-color: $eq-secondary-darker;
+
+  h3 {
+    @extend %remove-textshadow;
+    color: $eq-white;
+  }
+}
+/** remove fixed px widths of col */
+#col {
+  @extend %w100;
+}
+
+
+// fix fright box
+#content-body {
+  .box {
+    @extend %remove-border;
+    @extend %shadow-1;
+  }
+}

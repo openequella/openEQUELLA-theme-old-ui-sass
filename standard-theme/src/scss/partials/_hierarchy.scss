@@ -1,0 +1,16 @@
+/* this expanded list appears on the Modify key resource page */
+
+
+ul.topic-tree {
+  li.expandable {
+    &:hover, &:focus {
+      background-color: $eq-secondary-lighter;
+    }
+  }
+}
+
+.lineItem {
+  &:hover, &:focus {
+    background: transparent;
+  }
+}

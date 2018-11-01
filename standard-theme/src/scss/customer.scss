@@ -1,0 +1,90 @@
+/** Libs **/
+@import './libs/font-awesome';
+/** Variables **/
+@import './variables/colors';
+@import './variables/font-size';
+/** Extends **/
+@import './extends/remove';
+@import './extends/flexbox';
+@import './extends/height-width';
+@import './extends/image-icon-button';
+@import './extends/shadow';
+/** Mixins **/
+@import './mixins/filter';
+@import './mixins/flexbox';
+/** Partials - Functional Utils **/
+@import './partials/resets';
+/** Partials - Elements **/
+@import './partials/typography';
+@import './partials/alerts';
+@import './partials/anchors';
+@import './partials/attachments';
+@import './partials/breadcrumbs';
+@import './partials/buttons';
+@import './partials/collapse';
+@import './partials/dropdowns';
+@import './partials/header';
+@import './partials/footer';
+@import './partials/hierarchy';
+@import './partials/icons';
+@import './partials/images';
+@import './partials/inputs';
+@import './partials/layout';
+@import './partials/lists';
+@import './partials/modals';
+@import './partials/progress';
+@import './partials/tables';
+@import './partials/wizard';
+@import './partials/responsive';
+
+
+/** Sections **/
+@import './sections/shared';
+@import './sections/login';
+@import './sections/navigation-menu';
+@import './sections/dashboard';
+@import './sections/editing';
+@import './sections/favourites';
+@import './sections/search';
+@import './sections/contribute';
+@import './sections/browse-mini-courses';
+@import './sections/learning-resources';
+@import './sections/manage-tasks';
+@import './sections/manage-external-resources';
+@import './sections/manage-external-resources';
+@import './sections/manage-activations';
+@import './sections/reports';
+@import './sections/settings';
+@import './sections/integration';
+
+
+/** DIALOGS / MODALS **/
+html.integration .fancybox-inner .modal.vsdialog .modal-title h3 {
+  background-color: #949082;
+  border: none;
+  text-shadow: none;
+  color: white;
+  font-size: $font-md;
+}
+/* fonts */
+html.integration #searchresults-actions #actioncontent h3 {
+  color: #D4CFBB;
+}
+
+
+html.integration #selection-page #selection-content #selection-content-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/** hide empty column2 **/
+/* html.integration #selection-page #selection-content #selection-content-inner #col2:empty {
+  width: 0;
+  display: none;
+  float: none;
+} */
+/* html.integration #selection-page #selection-content #selection-content-inner .selection-courses.affix {
+  position: fixed;
+  right: 5vw;
+} */

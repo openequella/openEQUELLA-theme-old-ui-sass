@@ -1,0 +1,300 @@
+// specific overrides
+.wide .settingField input[type="text"],
+.wide .settingField .multieditbox .singletranslation input[type="text"],
+
+#selection-content-inner.wizard-layout input[type="text"],
+#selection-content-inner.wizard-layout div.autocompleteControl,
+#selection-content-inner.wizard-layout .autocompleteControl input[type="text"],
+#selection-content-inner.wizard-layout input[type="text"],
+#selection-content-inner.wizard-layout textarea, 
+.wizard-controls .multieditbox div.singletranslation input[type="text"],
+.wizard-controls .multieditbox div.singletranslation textarea,
+.wizard-controls .input.text input[type="text"],
+.wizard-controls .input.text textarea,
+.wizard-controls select.listbox,
+.mycontent-actions-layout #col1 input[type=text],
+.mycontent-layout #col1 input[type=text],
+.settingField textarea,
+.multieditbox,
+.singletranslation > input,
+.customfile {
+  @extend %w100;
+}
+.quick-search .compactQuery input {
+  @extend %hw100;
+}
+
+/** autocomplete fix - make into flex containers **/
+.autocomplete-container.autocomplete-container {
+  display: block !important;
+  position: relative;
+  height: initial;
+
+  .compactQuery {
+    @extend %d-flex;
+    @extend %flex-nowrap;
+    // .autocomplete-container {
+    //   @include flex-item(1,1,auto);
+    // }
+    .compactQueryButton {
+      @include flex-item(0,1,auto);
+      position: relative;
+    }
+  }
+}
+.compactQuery {
+  @extend %d-flex;
+  @extend %flex-nowrap;
+  .autocomplete-container {
+    @include flex-item(1,1,auto);
+  }
+  .compactQueryButton {
+    @include flex-item(0,1,auto);
+    position: relative;
+  }
+}
+
+/** make all input-appeds flex items to nest buttons */
+.input-append {
+  @extend %d-flex;
+}
+/** Filter inputs **/
+#col,
+#col1 {
+  .filter {
+    .compactQuery {
+      @extend %d-flex;
+      @extend %flex-nowrap;
+
+      .autocomplete-container {
+        backgroun: navy;
+        @include flex-item(1, 1, 100%);
+
+        input.real.ui-autocomplete-input,
+        input.prompt,
+        input.real {
+          @extend %hw100;
+        }
+      }
+      .compactQueryButton {
+        position: relative;
+        margin: 0;
+      }
+    }
+  }
+}
+// Sort > Sort results by
+// Filter > Filter by date modified dropdown
+#col {
+  #searchresults-actions {
+    #actioncontent {
+      select,
+      .newListSelected,
+      .newList.onBottom {
+        width: 100% !important;
+      }
+    }
+  }
+}
+.newListSelected {
+  width: 100% !important;
+}
+/** Manage Tasks **/
+#searchform {
+  .query-wrapper {
+    select,
+    .focus.newListSelected {
+      @extend %hw100;
+    }
+    .newList.onBottom {
+      @extend %w100;
+    }
+  }
+}
+
+/** Share inputs **/
+.sharesearchquery {
+  input.sharefield,
+  input.sharefield.email  {
+    @extend %hw100;
+  }
+  .input-append button {
+    height: 25px;
+  }  
+}
+/** fix display of query containers **/
+#col1,
+#col #searchform,
+#searchform {
+  .query-wrapper {
+    #querycontainer {
+      height: 28px;
+      input[type="text"] {
+        @extend %hw100;
+      }
+      &.input-append {
+        @extend %d-flex;
+        .input-group-addon {
+          @extend %h100;
+        }
+        input {
+          @extend %hw100;
+        }
+        .autocomplete-container {
+          @extend %h100;
+          input.ui-autocomplete-input {
+            @extend %hw100;
+            background: $eq-white;      
+          }
+          input.prompt {
+            @extend %hw100;
+          }
+        }
+        button#searchform-search {
+          @extend %h100;
+          display: inline-block;
+        }
+      }
+    }
+    #withincontainer {
+      .selectedcontainer {
+        @extend %hw100;
+        width: 100% !important;
+      }
+    }
+    #dropdowncontainer {}
+    #wherecontainer {}
+  } 
+  #wizardcontainer {
+    #wizard-controls {
+      .autocompleteControl {
+        // @extend %d-flex;
+        // @extend %flex-wrap;
+
+        .autocomplete-container {
+          @extend %remove-float;
+          @include flex-item(1,1,auto);
+          height: auto;
+        }
+
+        input[type="text"] {
+          @extend %hw100;
+          // position: relative;
+        }
+        p {
+          @extend %w100;
+        }
+      }
+      select.listbox {
+        @extend %w100;
+      }
+      .newListSelected {
+        ul.newList {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+/** textareas only resizable on y axis */
+textarea {
+  max-width: 100%;
+  resize: vertical;
+}
+.comment-form textarea {
+  width: 100%;
+}
+/** Fix Cloud Search input **/
+#col1 #searchform .query-wrapper #querycontainer.cloud #q {
+  @extend %hw100;
+}
+
+
+.input-group-addon {
+  @extend %h100;
+}
+
+/** fix course tags input **/
+.autocompleteControl {
+  @extend %d-flex;
+  @extend %flex-wrap;
+
+  .autocomplete-container {
+    @extend %remove-float;
+    @include flex-item(1,1,auto);
+
+    input.real.ui-autocomplete-input {
+      @extend %hw100;
+    }
+
+    button {
+      @extend %remove-float;
+      @extend %remove-margins;
+    }
+
+    p {
+      @extend %w100;  
+    }
+  }
+}
+
+/** fix Contribute > Mini Courses Course Tags input **/
+#wizard-controls {
+  .autocompleteControl {
+    input[type="text"] {
+      @extend %hw100;
+    }
+    button {
+      @extend %remove-margins;
+    }
+  }
+}
+
+/** fix autocomplete ajax spinner **/
+.autocompleteControl {
+  img.ajax-spinner {
+    height: 25px;
+    max-height: 25px;
+    margin: 0 auto;
+  }
+}
+
+/** restyle radio buttons in Select thumbnail modal **/
+
+.select_area {
+  ul.select_options {
+    @extend %d-flex;
+    @extend %justify-content-around;
+
+    li {
+      @include flex-item(1,1,100%);
+
+      input[type="radio"] {
+        & + label {
+          font-size: $font-md;
+        }
+        &[checked="checked"] {
+          & + label {
+            color: $eq-primary-dark;
+            font-weight: bold;
+          }
+        }
+        &[disabled="disabled"] {
+          color: $eq-secondary-dark;
+        }
+      }
+    }
+  }
+}
+
+/** fix collapsed tags input **/
+.real.ui-autocomplete-input {
+  position: relative;
+}
+
+/** fix user agent styling of fieldset **/
+.control fieldset {
+  min-width: 0px;
+}
+
+

@@ -1,0 +1,18 @@
+/** fix lack of box-sizing: border-box bug in project on inner collapse containers for Sort, Filter, Share **/
+#searchresults-actions {
+  #actioncontent {
+    // requires important to override inline styles
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+#helpAndOptions, 
+#body-inner #helpAndOptions {
+  // requires important to override inline styles
+  #bluebar_help, 
+  #bluebar_screenoptions {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}

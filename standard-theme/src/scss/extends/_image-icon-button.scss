@@ -1,0 +1,11 @@
+%image-icon-button {
+  border-radius: 50%;
+  transition: box-shadow 0.15s ease-in-out, opacity 0.1s ease-in;
+  &:hover, &:focus {
+    box-shadow: 0px 0px 0px 4px $eq-secondary-darker;
+  }
+  &:active {
+    box-shadow: 0px 0px 0px 6px $eq-primary-darker;
+    background: $eq-primary-light;
+  }
+}

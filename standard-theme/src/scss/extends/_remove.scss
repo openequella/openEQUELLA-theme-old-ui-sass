@@ -1,0 +1,33 @@
+/**
+ * Usage:
+ *    .className { @extend %remove-border; }
+ **/
+%remove-border {
+  border: none;
+}
+%remove-padding {
+  padding: 0;
+}
+%remove-margins {
+  margin: 0;
+}
+%remove-float {
+  float: none;
+}
+%remove-clear {
+  clear: none;
+}
+%remove-background {
+  background: none;
+}
+%remove-backgroundimage {
+  background-image: none;
+}
+%remove-boxshadow {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+%remove-textshadow {
+  text-shadow: none;
+  -webkit-text-shadow: none;
+}

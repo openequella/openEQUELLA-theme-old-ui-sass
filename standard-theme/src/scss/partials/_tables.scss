@@ -1,0 +1,35 @@
+.table-filter {
+  right: 20px;
+}
+
+table.zebra {
+  @extend %remove-border;
+
+  & th.sortable,
+  &.large th,
+  &.large th tr td a {
+    font-size: $font-md;
+  }
+  td {
+    font-size: $font-sm;
+  }
+
+  thead {
+    tr {
+      th {
+        background-color: $eq-primary-darkest;
+      }
+    }
+  }
+  tr {
+    th.sortable:hover {
+      background-color: $eq-primary-darkest;
+    }
+    &:hover,
+    &:focus {
+      td {
+        background-color: $eq-secondary-lighter;
+      }
+    }
+  }
+}

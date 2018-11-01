@@ -1,0 +1,7 @@
+/** This view is enabled by creating or editing an item*/
+.editing {
+  // menu collapsed, adjust breadcrumb placement
+  #breadcrumbs {
+    left: 5rem;
+  }
+}

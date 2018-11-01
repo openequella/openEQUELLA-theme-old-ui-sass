@@ -1,0 +1,63 @@
+/* This is the main navigation menu on the left side of the app, including buttons for: 
+ *    Dashboard
+ *    Favourites
+ *    My resources
+ *    Search
+ *    Contribute
+ *    Browse Mini Courses
+ *    Learning Resources
+ *    Manage Tasks
+ *    Manage External Resources
+ *    Manage Resources
+ *    Manage Activations
+ *    Reports
+ *    Settings
+ **/
+
+
+
+
+#menu {
+  @extend %remove-float;
+  @extend %remove-border;
+  background-color: $eq-secondary-lighter2;
+  margin: 0;
+  border-right: 2px solid $eq-secondary-lighter2;
+  &.menu-full {
+    @extend %wAuto;
+  }
+  
+  ul {
+    @extend %remove-border;
+    @extend %remove-float;
+    @extend %remove-boxshadow;
+    @extend %w100;
+    background-color: $eq-white-dark;
+    &:hover {
+      box-shadow: 0px 3px 1px #888;
+      -webkit-box-shadow: 0px 3px 1px #888;
+    }
+    li {
+      a {
+        @include filter-grayscale(1);
+        @extend %remove-border;
+        @extend %remove-textshadow;
+        background-color: $eq-transparent;
+        color: $eq-primary-darkest;
+        font-size: $font-md;
+        text-transform: capitalize;
+        background-position: 10px center;
+        transition: background-color 0.15s linear;
+        &:hover,
+        &:focus {
+          @include filter-grayscale(0);
+          background-color: $eq-primary-darker;
+          color: $eq-white-dark
+        }
+        &:active {
+          background-color: $eq-primary-darkest;
+        }
+      }
+    }
+  }  
+}

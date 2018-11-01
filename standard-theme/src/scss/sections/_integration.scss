@@ -1,0 +1,221 @@
+// /** This partial is for the Equella app embedded in an iframe, for example, in the Canvas application */@at-root
+html.integration {
+  body {
+    background-color: $eq-white-darker;
+
+    #selection-header {
+      .navbar-equella-selection {
+        .navbar.navbar-fixed-top.navbar-inverse {
+          .navbar-inner {
+            background: $eq-white;
+            .navbar-content {
+              .centered-pills {
+                ul.nav.nav-pills {
+                  li a { 
+                    border-radius: 3px; 
+                    &:hover {
+                      text-decoration: none;
+                      background-color: $eq-white-darker2;
+                    }
+                  }
+                }
+              }
+            }
+          } 
+        }
+      }
+    }
+
+    #body {
+      @extend %remove-backgroundimage;
+      @extend %remove-float;
+
+      #selection-page {
+        @extend %w100;
+
+        #helpAndOptions {}
+        // match right save toolbar
+        #selection-content {
+          @extend %remove-backgroundimage;
+          @extend %w100;
+          background-color: $eq-white-darker;
+
+          /** general area styles */
+          .area {
+            @extend %remove-border;
+            @extend %shadow-1;
+            background: $eq-white;
+            border-radius: 5px;
+            font-size: $font-sm;
+          }
+  
+          #selection-content-inner {
+            @extend %remove-backgroundimage;
+            @extend %w100;
+  
+            #col1 {
+              width: 70%;
+              /** fix active tab **/
+              .nav-tabs {
+                @extend %remove-border;
+                
+                #summary_tab.active,
+                #details_tab.active, {
+                  a {
+                    z-index: 10;
+                    background-color: $eq-white;
+                    border: none;
+                    /** add box-shadow to fit tab look **/
+                    -webkit-box-shadow: -1px -2px 2px 0px rgba(0,0,0,0.125), 2px -2px 3px 0px rgba(0,0,0,0.125);
+                    box-shadow: -1px -2px 2px 0px rgba(0,0,0,0.125), 2px -2px 3px 0px rgba(0,0,0,0.125);
+                  }
+                }
+              }
+            }
+            .selection-lmscontent {
+              width: 20%;
+              .selection-courses {
+                &.affix {
+                  width: 20%;
+                  overflow: visible;
+                }
+                .selection-courses-inner {
+                  .folder {
+                    &.level1 {
+                      .foldername {
+                        @extend %w100;
+                      }
+                    }
+                    &.targetfolder {
+                      &.selected,
+                      &:hover,
+                      &:focus {
+                        background-color: $eq-secondary-lighter;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }      
+      }
+    }
+  }
+}
+
+// override styles for button margins - plus select buttons
+html.integration .searchresults .itemresult-rating .float-right .btn.btn.btn-mini.btn-mini.button-expandable {
+  padding-left: 6px;
+  &:hover, &:focus {
+    // transition: all 0.25s ease-in-out;
+  }
+}
+
+// Only show col2
+html.integration {
+  #col2 {
+    @extend %remove-float;
+  }
+  form#eqpageForm {
+    #col2 {
+      width: auto;
+      // display: none;
+    }
+  }
+  form#eqpageForm[name="WizardForm"] {
+    #col2 {
+      width: 221px;
+      display: block;
+    }
+  }
+}
+
+/** override dashboard view **/
+html.integration body.dashboard #body #selection-page {
+  #selection-content {
+
+    #selection-content-bottom {
+      @extend %hw100;
+
+      #selection-content-inner {
+        @extend %d-flex;
+        @extend %flex-nowrap;
+        #col1 {
+          @include flex-item(0,1,50%);
+          width: auto;
+          margin: 1rem;
+          .box {
+            @extend %remove-border;
+            @extend %shadow-1;
+          }
+        }
+        #col2 {
+          @include flex-item(0,1,50%);
+          width: initial;
+          display: initial;
+          margin: 1rem;
+        }
+      }
+
+    }
+  }
+}
+
+/** fix selection contribute, checkout view **/
+html.integration body.checkout,
+html.integration body.contribute,
+html.integration body.dashboard {
+  #selection-content {
+    margin-bottom: 2rem;
+    #selection-content-bottom {
+      @extend %remove-backgroundimage;
+      @extend %w100;
+    }
+  }
+}
+/** override editing view */
+html.integration body.editing {
+  #selection-content-inner {
+    @extend %d-flex;
+    
+    
+    -webkit-flex-wrap: nowrap !important;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+
+    #col2 {
+      // padding: 1rem;
+      width: auto !important;
+      #affix-div {
+        // position: relative !important;
+        width: auto !important;
+        left: 80%;
+        width: auto;
+        position: fixed;
+        margin-right: 1rem;
+
+      }
+    }
+  }
+}
+
+/** show col2 in external tool **/
+html.integration {
+  body.search,
+  body.resources {
+    #selection-content-bottom {
+      @extend %remove-backgroundimage;
+      @extend %w100;
+
+      #col2 {
+        display: initial;
+        width: initial;
+
+        #affix-div {
+          position: relative !important;
+        }
+      }
+    }
+  }
+}

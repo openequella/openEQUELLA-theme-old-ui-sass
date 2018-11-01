@@ -1,0 +1,18 @@
+/** fix empty cols **/
+
+#content-body.dashboard {
+  // Allow flex wrapping on this view
+  @extend %flex-wrap;
+  #topwide {
+    @extend %w100;
+    margin: 0 auto;
+  }
+  .box {
+    @extend %w100;
+    // push panel done flush with sidenav buttons
+    margin: 43px 0 15px 0;
+  }
+  #col1, #col2 {
+    width: auto;
+  }
+}

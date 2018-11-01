@@ -1,0 +1,7 @@
+/** stretch out progressbar **/
+.file-upload-progress {
+  @extend %d-flex;
+  .progress-bar {
+    @include flex-item(1,1,auto);
+  }
+}

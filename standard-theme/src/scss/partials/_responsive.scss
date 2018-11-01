@@ -1,0 +1,90 @@
+//* Stretch entire body into flex container **/@at-root
+body {
+  height: 100%;
+
+  form#engageForm {
+    height: 100%;
+
+    #wrapper {
+      @extend %d-flex;
+      @extend %flex-column;
+      height: 100%;
+      min-width: 0px;
+
+      #topbar {}
+      #header {}
+      #body {
+        @include flex-item(1,1,100%);
+
+        #body-wrap1 {
+          @extend %remove-float;
+        }
+      }
+    }
+  }
+}
+
+/** topbar + header refactoring **/
+#topbar {
+  #topbar-wrap {
+    @extend %wAuto;
+  
+    #topbar-inner {
+      @extend %wAuto;
+      position: relative;
+    }
+  }
+}
+
+#header {
+  background-repeat: no-repeat;
+  background-size: unset;
+  background-position-x: -220px;
+
+  #header-wrap {
+    @extend %w100;
+
+    #header-inner {
+      @extend %w100;
+    }
+  }
+}
+
+#body-wrap3 {
+  @extend %w100;
+
+  #body-inner {
+    @extend %w100;
+    @extend %remove-margins;
+    @extend %remove-padding;
+
+    #helpAndOptions {
+      position: relative;
+      width: 75%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    #content {
+      @extend %remove-backgroundimage;
+      @extend %remove-float;
+      width: 75%;
+      max-width: 1000px;
+      margin: auto;
+
+      #content-bottom {
+        @extend %remove-float;
+        @extend %w100;
+
+        #content-inner {
+          @extend %w100;
+
+          #content-body {
+            min-width: 0px;
+          }
+        }
+
+      }
+    }
+  }
+}

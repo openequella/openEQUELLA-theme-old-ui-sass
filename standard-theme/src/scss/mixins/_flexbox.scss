@@ -1,0 +1,11 @@
+@mixin flex-item( $grow, $shrink, $basis ) {
+  -webkit-flex: $grow $shrink $basis;
+  -ms-flex: $grow $shrink $basis;
+  flex: $grow $shrink $basis;
+}
+
+@mixin flex-order( $order ) {
+  -webkit-order: $order;
+  -ms-flex-order: $order;
+  order: $order;
+}

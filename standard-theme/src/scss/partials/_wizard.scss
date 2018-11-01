@@ -1,0 +1,17 @@
+#wizard-pagelist {
+  @extend %remove-border;
+  @extend %shadow-1;
+  ul {
+    @extend %remove-backgroundimage;
+    @extend %remove-padding;
+
+    li {
+      @extend %remove-margins;
+      padding: 1rem;
+      background-position-y: 50% !important;
+      &.active {
+        background-color: $eq-secondary-lighter;
+      }
+    }
+  }
+}

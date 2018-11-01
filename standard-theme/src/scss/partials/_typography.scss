@@ -1,0 +1,85 @@
+
+#content-body,
+#col,
+#col1 {
+  .area {
+    p {
+      font-size: $font-md;
+      line-height: 1.5;
+    }
+    h2 {
+      text-transform: capitalize;
+      color: $eq-primary;
+    }
+    .control {
+      h3 {
+        color: $eq-secondary-darkest;
+      }
+    }
+  }
+}
+
+/* light text on dark backgrounds */
+.topblock,
+#helpmain,
+#searchresults-actions #actioncontent,
+.sharesearchquery {
+  h3 {
+    color: $eq-secondary-light;
+  }
+}
+/** dropdown in Search **/
+.richdropdown {
+  ul {
+    li {
+      h3 {
+        color: $eq-secondary-darkest;
+      }
+      a {
+        font-size: $font-sm;
+      }
+    }
+  }
+}
+/** readable font sizes */
+.content a,
+.settingLabel label,
+#searchresults-actions #actioncontent p,
+.control a,
+#more-actions li .action-link a,
+#searchresults-select a,
+.link-div a,
+.extras a,
+strong, 
+strong ~ a,
+.query-action a,
+.queryactions a,
+#searchresults-select a,
+.rate label,
+.checkbox label {
+  font-size: $font-sm;
+}
+
+// size 14
+.itemresult-title a.titlelink,
+#result-type-select strong,
+.content .settings tr td a,
+.itemsummary-layout #col2 h3,
+#col1 .searchresults-header a,
+#col1 .searchresults-header strong,
+table.large tbody tr td a,
+.settingHelp {
+  font-size: $font-md;
+}
+// large font
+.control h3 {
+  font-size: $font-lg;
+}
+
+// readable line height
+.unlock-group p {
+  line-height: 1.25;
+}
+.settingHelp {
+  line-height: 1.5
+}

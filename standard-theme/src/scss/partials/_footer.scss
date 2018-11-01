@@ -1,0 +1,11 @@
+/** footer **/
+#footer {
+  height: initial;
+  #footer-wrap {
+    @extend %w100;
+    padding: 0 2rem;
+    #footer-inner {
+      @extend %w100;
+    }
+  }
+}

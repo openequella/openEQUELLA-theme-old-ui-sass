@@ -1,0 +1,272 @@
+#fancybox-wrap {
+  position: absolute;
+  top: 15% !important;
+  
+  #fancybox-outer {
+    position: initial;
+
+    #fancybox-inner {
+      > div {
+        height: 100%;
+        @extend %h100;
+
+        form {
+          @extend %h100;
+          @extend %d-flex;
+          @extend %flex-column;
+          @extend %align-items-stretch;
+
+          div#wizprv,
+          div:nth-of-type(2):not(.customfile):not(.displayname) {
+            @include flex-item(1,1,100%);
+          }
+
+          .modal {
+            @extend %h100;
+            @extend %d-flex;
+            @extend %flex-column;
+            @extend %remove-border;
+
+            .modal-title {
+              h3 {
+                @extend %remove-background;
+                @extend %remove-textshadow;
+                @extend %remove-border;
+                color: $eq-white;
+                font-size: $font-md;
+              }
+
+              img {
+                @extend %image-icon-button;
+              }
+            }
+            .modal-content {
+              @include flex-item(1,1,auto);
+              height: initial;
+              padding-top: 0;
+
+              .modal-content-background {
+                @extend %remove-backgroundimage;
+                @extend %h100;
+              }
+
+              .modal-content-inner {
+                @extend %d-flex;
+                @extend %h100;
+
+                /** fix Select a new owner inner div, Select thumbnail, preview-container **/
+                #bulkresults_inner,
+                #preview-container,
+                .select-area,
+                .select_area,
+                .selectuser {
+                  min-width: 100%;
+                  h3 {
+                    margin-top: 2rem;
+                  }
+                }
+                
+                #bulkresults_inner,
+                .select_area {
+                  margin-top: 2rem;
+                }
+
+                /** fix Classifications - add terms modal **/
+                #container {
+                  @extend %w100;
+                  min-width: 100%;
+                  #termChooser {
+                    @extend %w100;
+                  }
+                }
+
+                /** fix upload resources modal **/
+                .fileadd {
+                  width: 100%;
+                  min-width: 100%;
+                }
+
+                .favouritesearch h3,
+                h3 {
+                  color: $eq-secondary-darker;
+                }
+                p {
+                  font-size: $font-sm;
+                  &.mandatory {
+                    margin: 10px 0 0;
+                  }
+                }
+              }
+            }
+
+            .modal-footer {
+              z-index: 10000;
+              border-top: none;
+              clear: none;
+              height: auto;
+              padding: 0.25rem 0.5rem;
+              .modal-footer-inner {
+                @extend %remove-padding;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/** fix iframe modals for mini courses */
+#fancybox-wrap {
+  top: calc(50% - (461px / 2));
+}
+
+div.universaliframe {
+  @extend %h100;
+
+  #selection-header .navbar-equella-selection .navbar.navbar-fixed-top.navbar-inverse .navbar-inner {
+    background: $eq-secondary-darker;
+  }
+}
+
+/** fix inner modal inputs **/
+.modal-content-inner {
+  .selectuser {
+    .control {
+      @extend %d-flex;
+
+      input {
+        @include flex-item(1,1,auto);
+        width: auto;
+      }
+    }
+  }
+}
+
+/** more Material select thumbnail modal **/
+.modal {
+  .thumbcontainer {
+    div.thumbs,
+    ul.thumbs {
+      @extend %remove-border;
+      background-color: $eq-white-darker2;
+
+      li.thumbrow {
+        a.thumbnail {
+          /* default shadow 1, hover/focus shadow 2, selected blue shadow */
+          img.file-thumbnail {
+            @extend %w100;
+            @extend %remove-border;
+            @extend %shadow-1;
+            transition: box-shadow 0.15s ease-in-out;
+          }
+
+          &:hover, &focus {
+            @extend %remove-border;
+            @extend %remove-boxshadow;
+
+            img.file-thumbnail {
+              @extend %shadow-3;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/** column layout for certain modals - Select Resource from Integration **/
+#_slcl_versionDialog {
+  .modal-content-inner {
+    @extend %d-flex;
+    @extend %flex-column;
+  }
+}
+
+/** remove modal padding **/
+#fancybox-wrap {
+  padding: 0 !important;
+  #fancybox-inner {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+/** fix modal search results, remove pixel widths **/
+/** requires overrides of chaining class **/
+.modal-search-result.modal-search-result {
+  li {
+    @extend %remove-float;
+    @extend %remove-clear;
+    @extend %w100;
+    @extend %d-flex;
+    @extend %align-items-center;
+    padding: 0.85rem;
+
+    input[type="radio"] {
+      position: relative;
+      top: 0;
+      left: 0;
+      margin-right: 1.5rem;
+    }
+
+    .username {
+      @extend %remove-float;
+      margin-right: auto;
+    }
+
+    .displayname {
+      @include flex-item(0,1,auto);
+    }
+  }
+}
+
+/** fix add to favourites modal, upload files modal **/
+#fancybox-wrap #fancybox-outer #fancybox-inner>div form .modal.favouritesdialog .modal-content .modal-content-inner {
+  display: block;
+  h3 {
+    margin-top: 2rem;
+  }
+}
+.modal-content-inner h3:first-child,
+.modal-content-inner h3 {
+  margin-top: 2rem;
+}
+
+/** Fix manage external resources modals **/
+
+body.manage-external-resources {
+  .modal-content-background {
+    height: auto !important;
+  }
+  .modal-content-inner {
+    // @extend %d-flex;
+    // @extend %flex-wrap;
+    display: block !important;
+    padding-bottom: 0;
+
+    .settingRow {
+      @extend %w100;
+      .settingLabel {
+        @extend %remove-float;
+        @extend %wAuto;
+        text-align: left;
+      }
+      margin-top: 2rem;
+      .settingField .control input {
+        @extend %w100;
+      }
+    }
+  }
+}
+
+/** fix banned extension modal **/
+.modal {
+  .addbannedext {
+    @extend %hw100;
+    min-width: 100%; // key for fix
+  }
+}

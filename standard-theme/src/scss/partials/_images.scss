@@ -1,0 +1,42 @@
+img {
+  max-width: 100%;
+}
+
+/** prevent images overflowing from results containers */
+.itemresult-content {
+  div.thumbnailinlist {
+    a {
+      img {
+        @extend %shadow-1;
+        max-width: 100%;
+        transition: 0.15s box-shadow ease-in-out;
+      }
+      &:hover, &:focus { img { @extend %shadow-3; } }
+    }
+  }
+}
+
+/** fix images on search results **/
+/** TODO -- NEED TO BE ERSULTS SPECIFIC **/
+.itemlist {
+  // @extend %d-flex;
+  // @extend %flex-wrap;
+
+  .itemresult-wrapper {
+    @extend %remove-padding;
+    // @extend %remove-float;
+    // @include flex-item(0, 1, 20%);
+    .thumbfade {
+      position: initial;
+    } 
+    .thumb-bar {
+      @extend %remove-border;
+      position: absolute;
+      left: 0; right: 0; top: calc(100% - 23px);
+      width: 100%;
+      z-index: 1000;
+    }
+  }
+
+
+}

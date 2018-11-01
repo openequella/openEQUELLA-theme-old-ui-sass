@@ -1,0 +1,90 @@
+#breadcrumbs a {
+  color: $eq-primary-light;
+  &:hover,
+  &:focus {
+    color: $eq-primary-dark;
+  }
+  &:active {
+    color: $eq-primary;
+  }
+}
+
+
+/** star rating anchors **/
+.rating-bar a {
+  font-size: $font-sm;
+}
+
+/** style pager links to look more like buttons **/
+#page.paging {
+  ul {
+    @extend %d-flex;
+    @extend %justify-content-center;
+
+    li {
+      @extend %d-inline-flex;
+      @extend %flex-column;
+      @extend %justify-content-center;
+      font-size: $font-sm;
+      margin: 0 5px;
+      border-radius: 100px;
+
+      a, span {
+
+      }
+      a {
+        min-width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 100px;
+        &:hover, &:focus {
+          background-color: $eq-secondary-lighter2;
+        }
+      }
+      span {
+        min-width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 100px;
+        box-shadow: inset 0px 0px 0px 2px $eq-secondary-lighter2;
+      }
+    }
+  }
+}
+
+/** Section styles - Learning Resources **/
+li.attachmentrow:hover a {
+  color: $eq-primary-dark;
+}
+
+
+/** change Theme Setting anchors **/
+.area {
+  ul.standard {
+    @extend %d-flex;
+    @extend %justify-content-around;
+    @extend %align-items-center;
+    @extend %shadow-1;
+    background: $eq-white;
+    list-style: none;
+    height: 33vh;
+    li {
+      @include flex-item(0, 1, 33%);
+      margin: 0;
+      text-align: center;
+      a {
+        display: block;
+        font-size: 14px;
+        padding: 0.5rem;
+        border-radius: 5px;
+        background-color: $eq-primary;
+        color: $eq-white;
+        &:hover, &:focus {
+          background-color: $eq-primary-dark;
+          color: $eq-white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

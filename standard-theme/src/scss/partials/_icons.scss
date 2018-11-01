@@ -1,0 +1,37 @@
+
+// down arrow in search list
+a {
+  .icon-circle-arrow-down,
+  .icon-circle-arrow-up {
+    @extend %image-icon-button;  
+    transform: scale(1.2);
+  }
+}
+
+// X icon in Upload resource modal
+.file-upload-progress {
+  .progress-bar {
+    a {
+      @extend %image-icon-button;  
+      transform: scale(1.2);
+    }
+  }
+}
+
+// X icon to remove items
+.file-upload,
+td.actions {
+  a.unselect {
+    @extend %image-icon-button;  
+    transform: scale(1.2);
+  }
+}
+td.unselect a {
+  @extend %image-icon-button;  
+  transform: scale(1.2);
+}
+
+.comment-delete a img {
+  @extend %image-icon-button;  
+  transform: scale(1.2);
+}

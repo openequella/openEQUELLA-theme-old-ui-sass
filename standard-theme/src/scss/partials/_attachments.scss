@@ -1,0 +1,30 @@
+.attachments {
+  .attachments-browse {
+    &.structured {
+      li.attachmentrow {
+        .attachments-meta {
+          span {
+            color: $eq-primary-darker;
+          }
+        }
+        &:hover, &:focus {
+          // color: $eq-white-dark;
+          // background-color: $eq-primary-darker;
+
+          .attachments-meta {
+            span {
+              color: $eq-primary-darker;
+            }
+          }
+          a.defaultviewer {
+            // color: $eq-white-dark;
+          }
+        }
+        &:active {
+          // background-color: $eq-primary-darkest;
+        }
+      }
+    }
+  }
+}
+

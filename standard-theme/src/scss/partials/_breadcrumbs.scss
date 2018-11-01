@@ -1,0 +1,12 @@
+.page-layout-menu-full {
+  #breadcrumbs {
+    left: 0;
+    padding-left: 205px;
+    #breadcrumb-inner {
+      font-size: $font-md;
+      a {
+        font-size: $font-md;
+      }
+    }
+  }
+}

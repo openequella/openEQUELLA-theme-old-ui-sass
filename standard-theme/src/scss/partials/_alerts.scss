@@ -1,0 +1,8 @@
+.alert {
+    @extend %w100;
+}
+
+// fix alert height on dashboard
+#content-body.dashboard #receipt-message.alert.alert-success {
+    height: 34px;
+}

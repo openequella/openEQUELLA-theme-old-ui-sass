@@ -1,0 +1,99 @@
+body.settings {
+  .settingContainer {
+    @extend %w100;
+  }
+  
+  // remove hard-coded widths
+  .itemresult-content {
+    @extend %w100;
+  }
+  // allow horizontal scroll of tables and overflow content
+  #shortcuturls {
+    overflow-x: auto;
+  }
+}
+/* fix Settings > Dashboard administration > Edit portlet **/
+.settingContainer.wide {
+  @extend %w100;
+}
+body.portaladmin {
+  .settingContainer.wide {
+
+    // fix change button placement
+    #institutionWideSettings {
+      .settingRow .settingField .control button {
+        margin-left: 2rem;
+      }
+    }
+  }
+}
+/** Fix Harvester layout **/
+body.harvesterskipdrmsettings {
+  .settingRow {
+    @extend %remove-float;
+    @extend %remove-clear;
+    @extend %d-flex;
+    @extend %align-items-center;
+    .settingLabel {
+      @extend %remove-padding;
+      @extend %remove-float;
+      @include flex-item(1,1,auto);
+      @include flex-order(2);
+      label {
+        text-align: left;
+      }
+    }
+    .settingField {
+      @extend %remove-padding;
+      @include flex-item(0,1,auto);
+      @include flex-order(1);
+      width: auto !important;
+    }
+
+  }
+}
+
+/** fix inputs in settings **/
+.settingContainer {
+  /** fix settings containers Settings > Copyright **/
+  @extend %w100;
+  .settingRow {
+    @extend %d-flex;
+    
+    .settingLabel {
+      @extend %remove-float;
+      width: 130px;
+    }
+    .settingField {
+      @extend %w100;
+      input[type="text"],
+      input[type="password"] {
+        @extend %w100;
+      }
+
+      /** copyright page fix **/
+      .control {
+        @extend %d-flex;
+        @extend %align-items-start;
+
+        /** Settings > Custom links > Create link fix upload button **/
+        button#cls_uploadButton {
+          @extend %align-self-stretch;
+          @extend %d-flex;
+          @extend %align-items-center;
+        }
+      }
+    }
+
+  }
+}
+
+/** customLinks settingLabel length switch **/
+/** Settings > Dashboard administration > Edit portlet **/
+body.searchsettings,
+body.customlinks,
+body.portaladmin {
+  .settingContainer .settingRow .settingLabel {
+    width: 150px;
+  }
+}

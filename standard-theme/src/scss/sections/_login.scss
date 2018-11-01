@@ -1,0 +1,58 @@
+/** make mroe modern login layout */
+.login {
+  // fade in
+  #content {
+    opacity: 0;
+    -webkit-animation: FADE-IN 1s 1; /* Safari 4+ */
+    -moz-animation:    FADE-IN 1s 1; /* Fx 5+ */
+    -o-animation:      FADE-IN 1s 1; /* Opera 12+ */
+    animation:         FADE-IN 1s 1; /* IE 10+, Fx 29+ */
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+  }
+  #content-body {
+    .area {
+
+      width: 50%;
+      margin: 0 auto;
+      // specific targeting for login only
+      h2 {
+        font-size: 30px;
+      }
+
+      p:not(#cookieWarning) {
+        @extend %d-flex;
+        @extend %flex-column;
+
+        label {
+          font-size: $font-normal;
+          text-align: left;
+        }
+        input#username, input#password {
+
+        }
+        button.loginbutton {
+          @extend %align-self-center;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes FADE-IN {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes FADE-IN {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes FADE-IN {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes FADE-IN {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}

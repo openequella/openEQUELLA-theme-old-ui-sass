@@ -1,0 +1,118 @@
+.customfile-button:hover {
+  background-position: 0 100%;
+}
+/** remove outdated margins */
+.btn.btn,
+.btn.btn.btn-mini.btn-mini {
+  margin: 0;
+  // padding: 0.25rem 1rem;
+}
+
+
+/** btn-success to btn-primary styles **/
+.btn.btn-success {
+  background-color: $eq-primary;
+  &:hover,
+  &:focus {
+    background-color: $eq-primary-dark;
+  }
+  &:active {
+    background-color: $eq-primary-darker;
+  }  
+}
+
+button.btn.btn-primary,
+button.btn.btn-equella {
+  background-color: $eq-primary-light;
+  &:hover,
+  &:focus {
+    background-color: $eq-primary-darker;
+  }
+  &:active {
+    background-color: $eq-primary-darkest;
+  }
+}
+// drop filter and sort buttons down
+#actionbuttons {
+  top: -29px;
+}
+
+// remove margins from nested button in inut, Upload Files > Browse button
+.customfile {
+  .customfile-button {
+    margin: 0;
+  }
+}
+
+// modernize rounded action buttons
+.action-button,
+.action-button.save-scrapbook-page,
+.action-button.addToFavourites,
+#wizard-major-actions .action-button.save,
+.action-button.execute-action,
+.action-button.add-mime,
+.courselisttop.buttons.btn {
+  @extend %remove-textshadow;
+  @extend %remove-backgroundimage;
+  border-radius: 10px;
+  font-size: $font-md;
+  padding: 0 1rem;
+  background-color: $eq-tertiary-dark;
+  color: white;
+  text-align: center;
+
+  &:hover, &:focus {
+    background-color: $eq-tertiary-darker;
+  }
+}
+// match prev next buttons with below buttons
+#prevnextbuttons_btnprev,
+#prevnextbuttons_btnnext {
+  font-size: $font-md;
+}
+#prevnextbuttons_btnprev {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#prevnextbuttons_btnnext {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/** fix upper screen options button layout **/
+#body-wrap3 {
+  #body-inner {
+    #helpAndOptions {
+      @extend %w100;
+      #button-bar {
+        right: 0;
+      }
+    }
+  }
+}
+
+/** fix float issue on settings > mime types **/
+.itemresult-rating {
+  height: auto;
+  clear: none;
+  padding: 4px;
+  .floatright {
+    @extend %remove-float;
+    @extend %d-flex;
+    position: relative;
+    height: auto;
+    button:first-child {
+      margin-left: auto;
+    }
+  }
+}
+
+/** adjust item locked buttons Resource Summary **/
+.unlock-action-area {
+  padding: 1rem 1rem 0;
+  button {
+    @extend %w100;
+    border-radius: 10px;
+  }
+}

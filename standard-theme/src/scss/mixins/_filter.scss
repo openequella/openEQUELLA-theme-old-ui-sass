@@ -1,0 +1,4 @@
+@mixin filter-grayscale( $amt ) {
+  -webkit-filter: grayscale( $amt );
+  filter: grayscale( $amt );
+}

@@ -1,0 +1,27 @@
+body.search {
+  // remove borders, add material shadow
+  .search-layout {
+    .box {
+      @extend %remove-border;
+      @extend %shadow-2;
+      background-color: $eq-white;
+    }
+  }
+
+
+  // gallery and video layout
+  #searchform.area {
+    #searchresults-outer-div {
+      #searchresults-header-cont {}
+      #actionbuttons {}
+      #searchresults-actions {}
+      #searchresults-cont {
+        #searchresults.searchresults.area {
+          .itemList {
+            .itemresult-wrapper {} // repeater
+          }
+        }
+      }
+    }
+  }
+}
