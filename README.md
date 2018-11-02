@@ -5,11 +5,18 @@ Repository for theming the 'old UI' of openEQUELLA (6.5).
 Uses a Javascript script in the language pack to enhance the stability of the theme.
 
 ## Quickstart ##
-1. Clone repo, and run `npm install`, and `npm run zip-css`
-2. Take the resulting `css.zip` and upload it into your openEQUELLA instance as the theme
-3. Update the language pack to reference the `customer.js` file (TODO - explain a bit)
-4. Contribute a resource that is viewable by `Everyone` that contains the `customer.js` file 
-5. Setup a shortcut URL that references the resource's `customer.js` via `custom-scripts`
+1. Clone this repo
+2. Contribute a resource that is viewable by `Everyone` that contains the `customer.js` file 
+3. Setup a shortcut URL that references the resource's `customer.js` via `custom-scripts`
+4. Update the language pack's `resource-centre.properties` to reference the `custom-scripts` shortcut
+```Java
+com.tle.web.itemlist.footer.thankyou=Thank you for using <a href\="https\://equella.github.io/">openEQUELLA</a><script type="text/javascript" src="s/custom-scripts"></script>
+com.tle.web.myresources.label.myresources.action=My resources<script type="text/javascript" src="s/custom-scripts"></script>
+com.tle.web.sections.equella.footer.thankyou=Thank you for using <a href\="https\://equella.github.io/">openEQUELLA</a><script type="text/javascript" src="s/custom-scripts"></script>
+com.tle.web.selection.home.label.home.action=Home<script type="text/javascript" src="s/custom-scripts"></script>
+```
+5. Run `npm install`, and `npm run zip-css`
+6. Take the resulting `css.zip` and upload it as the theme
 
 Home
 ![Screenshot](docs/images/oeq-home.png)
