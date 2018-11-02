@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment/>
+<entry key="com.tle.web.myresources.moreListed">
+
+&lt;div id="moreListed" style="display:none;"&gt;
+&lt;h3&gt;More about listed resources&lt;/h3&gt;
+
+&lt;p&gt;A list of resources is displayed that match the categorisation criteria. Select the title of a listed resource to view the resource.
+Search results can be displayed in groups of 10, 50 or 100 per page, with paging displayed at the end of the search results page. 
+&lt;/p&gt;
+
+&lt;p&gt;The information displayed for each match comprises:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Resource title&lt;/b&gt; &amp;mdash; select this link to display the resource summary page.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; &amp;mdash; displays the resource status and when it was last updated.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;&amp;lt;x&gt; comments&lt;/b&gt; &amp;mdash; select this link to display the resource summary page where comments and ratings can be entered.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Add to favourites&lt;/b&gt; &amp;mdash; select this link to add the resource to the favourites list.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link to remove the resource from your favourites list. 
+	This link is only displayed for resources that have been added to your favourites list.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreAddItemFavourites'')"&gt;More about Add/Remove favourites...&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.customlinks.help.list">
+&lt;div id="helpmain"&gt;
+	&lt;h3&gt;Existing links&lt;/h3&gt;
+	&lt;p&gt;The Existing links page displays a list of existing custom links showing the display text, URL and link icon.&lt;/p&gt;
+	&lt;p&gt;Select to &lt;b&gt;add&lt;/b&gt; a new link, alternatively &lt;b&gt;edit&lt;/b&gt; or &lt;b&gt;delete&lt;/b&gt; an existing link. Listed links can be reordered by dragging a link to a new position in the list.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreAdd')"&gt;More on editing or adding a link...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreonnavlinks')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+    &lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreAdd" style="display: none"&gt;
+	&lt;h3&gt;Editing or adding a link&lt;/h3&gt;
+	&lt;p&gt;Links are displayed in the order they appear on the user menu and the following options are provided to manage the links:&lt;p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;edit&lt;/b&gt; &amp;mdash; displays the &lt;b&gt;Edit link details&lt;/b&gt; page&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;delete&lt;/b&gt; &amp;mdash; removes the link from the list after confirmation.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;add&lt;/b&gt; &amp;mdash; display the &lt;b&gt;Add a new link&lt;/b&gt; page&lt;/li&gt;
+		&lt;li&gt;Drag a listed link &amp;mdash; moves the link to a new position in the list, providing a method of reordering the list.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	
+&lt;div id="moreonnavlinks" style="display: none"&gt;
+		&lt;h3&gt;Navigation menu&lt;/h3&gt;
+	&lt;p&gt;
+		The navigation menu is displayed on the left-hand side of the page and display links for accessing content that include standard EQUELLA
+		links and system links configured by the administrator. The links displayed depend on the privileges granted by the System Administrator.
+	&lt;/p&gt;
+	
+	&lt;p&gt;Navigation menu links can include:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; Dashboard, Search, Contribute, Favourites, My resources.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; Administrator configurable links that can be an alternative to a portlet when access to content is required. Add custom links to the navigation menu by selecting Settings from the navigation menu then Edit custom links.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administrator links&lt;/b&gt; &amp;mdash; Settings, Manage resources.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+	</entry>
+<entry key="com.tle.web.portal.helppage">
+
+&lt;div id="helpmain"&gt;
+
+&lt;h3&gt;Dashboard&lt;/h3&gt;
+&lt;p&gt;
+	The Dashboard page is your home page and displays a navigation menu, portlets, help and screen options. The menu and portlets can
+	comprise personally configured and system administrator configured options.
+&lt;/p&gt;
+
+&lt;h3&gt;Portlets&lt;/h3&gt;
+&lt;p&gt;
+	Portlets are displayed in the central pane and typically display a summary of the available content and links to access that content. {3}
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreonportals'')"&gt;More about portlets...&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;h3&gt;Navigation menu&lt;/h3&gt;
+&lt;p&gt;
+	The navigation menu is displayed on the left-hand side of the page and provides links for accessing content that include standard EQUELLA
+	links and system links configured by the administrator. The links displayed depend on the privileges granted by the System Administrator.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreonnavlinks'')"&gt;More about navigation links...&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreonportals" style="display: none"&gt;
+&lt;h3&gt;Portlets&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Move a portlet by dragging the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Show or hide portlet content by selecting the toggle &lt;img src="{0}"&gt;
+		 button on the left-hand side of the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Edit the portlet details by selecting the &lt;img src="{1}"&gt; button at the right-hand side of the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Close a portlet by selecting the &lt;img src="{2}"&gt; button at the right-hand side of the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Administer the portlets by selecting Settings from the navigation menu then Dashboard administration.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpmain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;div id="moreonnavlinks" style="display: none"&gt;
+	&lt;h3&gt;Navigation menu links&lt;/h3&gt;
+	&lt;p&gt;Navigation menu links can include:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; Dashboard, Search, Contribute, Favourites, My resources.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; Administrator configurable links that can be an alternative to a portlet when access to content is required. Add custom links to the navigation menu by selecting Settings from the navigation menu then Edit custom links.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administrator links&lt;/b&gt; &amp;mdash; Settings, Manage resources.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpmain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+	</entry>
+<entry key="com.tle.web.itemadmin.moreSearchResults">
+&lt;div id="moreSearchResults" style="display:none;"&gt;
+	&lt;h3&gt;More on search results&lt;/h3&gt;
+	
+	&lt;p&gt;The information displayed comprises:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Item title (e.g EQUELLA Training Guide)&lt;/b&gt; &amp;mdash; select this link to display the item&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;&amp;lt;x&gt; comments&lt;/b&gt; &amp;mdash; select this link to display the comment dialog where an item comment can be entered.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Add to favourites&lt;/b&gt; &amp;mdash; select this link to add the item to the favourites list.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.myresources.moreShare">
+
+	&lt;div id="moreShare" style="display:none;"&gt;
+&lt;h3&gt;More about Share search query&lt;/h3&gt;
+
+&lt;p&gt;Users can be emailed a resource access link or notified when the resource becomes publicly available.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Share with others&lt;/b&gt; &amp;mdash; select this button to display the Share with others page where resource access or notifications can be configured.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.viewitem.summary.summary.content.summary.item.selection.summary.help">
+&lt;div id="helpmain"&gt;
+	&lt;h3&gt;Summary page&lt;/h3&gt;
+	&lt;p&gt;This page is used to select EQUELLA content for use in the integrated LMS. Content can be dragged and dropped to the required LMS section, or the required LMS section can be highlighted, then the select (plus) buttons used to add content to that section. Note that the LMS section that the EQUELLA selection session was accessed from will always be the default LMS section. Different sections can be selected by clicking in the yellow space around the section name.&lt;/p&gt;
+	&lt;p&gt;Summary pages can be added to an LMS section by dragging and dropping the resource title to the required section, or clicking the Select summary page button.&lt;/p&gt;
+	&lt;p&gt;Specific attachments can be added to an LMS section by dragging and dropping the attachment title to the required section, or clicking the plus button beside the required attachment.&lt;/p&gt;
+	&lt;p&gt;All attachments for a resource can be added to an LMS section by clicking the Select all button. This will result in a separate link for each attachment in the LMS section.&lt;/p&gt;
+	&lt;p&gt;All attachments for a resource can be added as a package to an LMS section by clicking the Select package button. This will result in one link in the LMS section, which, when selected, allows the user to view all the attachments within a 'package player'.&lt;/p&gt;
+	&lt;p&gt;Selections for one LMS section can be reviewed and edited by clicking the LMS section name link.&lt;/p&gt;
+	&lt;p&gt;All selections (across multiple LMS sections) can be reviewed and edited by clicking the Review all selections link.&lt;/p&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.mimetypes.mainEdit">
+
+&lt;div id="main" &gt;
+	&lt;h3&gt;Edit MIME type&lt;/h3&gt;
+	
+	&lt;p&gt;The Edit MIME type page displays fields for editing MIME type attributes - 
+	enabling file extensions, style sheets, text extractors, icons and viewers to be associated with the MIME type.&lt;/p&gt;
+	
+	&lt;p&gt;EQUELLA file types associated with this MIME type will be displayed using the configured tools and templates.&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Details&lt;/b&gt; &amp;mdash; &lt;a href="javascript:void(0)" onclick="switchText(''moreDetailsEdit'')"&gt;More on editing MIME type Details...&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Viewers&lt;/b&gt; &amp;mdash; MIME type viewers are used to display the files associated with this MIME type. 
+			These fields are used to select the default viewer and configure any other available viewers. 
+			These viewers are displayed as options when files appear in search result lists.  
+			&lt;a href="javascript:void(0)" onclick="switchText(''moreViewersEdit'')"&gt;More on editing MIME type Viewers...&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Embedding Template&lt;/b&gt; &amp;mdash; An embedding template is used to display the item in HTML pages.  
+			The template provides HTML tags and item metadata (information) for display of files associated with the MIME type.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;br&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	 		 
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.viewitem.summary.summary.content.help">
+&lt;div id="moreAction" style="display: none"&gt;
+	&lt;h3&gt;More about Actions links...&lt;/h3&gt; 
+	&lt;p&gt;The Actions area can display the following actions:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Modify key resource&lt;/b&gt;  &amp;mdash;  this link can be used to modfiy the resource as a key resource to one or more hierarchy topics.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Edit this version&lt;/b&gt;  &amp;mdash;  this link displays the resource details in a contribution wizard for editing. Saving changes updates the current resource version.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Create a new version&lt;/b&gt;  &amp;mdash;  this link displays a contribution wizard populated with resource data. Complete the wizard to create a new version.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Redraft this version&lt;/b&gt;  &amp;mdash;  this link allows the resource to re-enter the workflow. It is intended for resources that were rejected prior to workflow completion.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;New contribution of same type&lt;/b&gt;  &amp;mdash;  this link displays a blank contribution wizard for the same collection as the original resource. Complete the wizard to create a new resource.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Clone item into a collection&lt;/b&gt;  &amp;mdash;  this link can be used to copy resources between collections. It can accept a suitable XSLT for transforming current resource metadata to that required for the new collection. This operation does not change the original resource.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Move item into another collection&lt;/b&gt;  &amp;mdash;  this link can be used to transfer a resource between collections. It can accept a suitable XSLT for transforming current resource metadata to that required for the new collection.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Archive this version&lt;/b&gt;  &amp;mdash;  this link removes the resource from search results and any associated workflow.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Suspend this version&lt;/b&gt;  &amp;mdash;  this link temporarily removes resources from search results and is intended for content that is temporarily unavailable.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Delete this version&lt;/b&gt;  &amp;mdash;  this link removes the resource from the repository.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Change ownership&lt;/b&gt;  &amp;mdash;  this link can be used to share the resource with collaborators or change resource owner.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Export&lt;/b&gt;  &amp;mdash;  this link displays the Export page where export options are displayed.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreDetails" style="display: none"&gt;
+	&lt;h3&gt;More about the Details links...&lt;/h3&gt; 
+	&lt;p&gt;The Details area displays information about the resource including:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Owner&lt;/b&gt;  &amp;mdash;  displays the owner of the resource.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Collection&lt;/b&gt;  &amp;mdash;  select this link to display a list of all resources in the same collection as the current resource.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Collaborators&lt;/b&gt;  &amp;mdash;  displays the users selected as collaborators for the resource.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Version&lt;/b&gt;  &amp;mdash;  displays the resource version. Select the (show all) link to display the Versions page.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Status&lt;/b&gt;  &amp;mdash;  displays the resource’s status.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Moderation history&lt;/b&gt;  &amp;mdash;  select this link to display the History page with a list of history details.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Moderation progress&lt;/b&gt;  &amp;mdash;  select this link to display the Moderation progress page.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Activations&lt;/b&gt;  &amp;mdash;  select this link to display the Activations page with a list of all activations.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Terms of use&lt;/b&gt;  &amp;mdash;  select this link to display the Terms of use page with terms and a list of users who have accepted those terms.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;	
+
+&lt;div id="moreAddRemoveFavourites" style="display:none"&gt;
+	&lt;h3&gt;More about Add/Remove favourites&lt;/h3&gt; 
+	&lt;p&gt;Resources can be added to your Favourites page for quick access.&lt;/p&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Add to favourites&lt;/b&gt; &amp;mdash; select this link to display the Add to favourites dialog where tags can be entered to simplify searching. Select the resource version to display in the favourites page:
+	&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Always use latest version&lt;/b&gt; &amp;mdash; select this option to use the latest version when the current version is superseded.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;This version&lt;/b&gt; &amp;mdash; select this option to use this version even when later versions are available.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Select ADD to add to your favourites resources list and return to the resource summary or CANCEL to return to the resource summary without creating a favourite.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link then OK to confirm, to remove this resource from your favourites resources list.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreShare" style="display: none"&gt;
+	&lt;h3&gt;More about Share with others&lt;/h3&gt;
+	&lt;p&gt;Users can be emailed a resource access link or notified when the resource becomes publicly available.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Share with others&lt;/b&gt; &amp;mdash; select this button to display the Share with others page where resource access or notifications can be configured.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings. Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.portal.admin.help">
+		&lt;div id="helpmain"&gt;
+			&lt;h3&gt;Dashboard administration&lt;/h3&gt;
+			&lt;p&gt;The Dashboard administration page provides a portlet search that displays a list of all portlets used on dashboards with associated information.&lt;/p&gt;
+			&lt;p&gt;This page provides for portlet searching, viewing, sorting and filtering results with links to edit or delete a portlet.&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Search—enter search terms to display matching results.&lt;/li&gt;
+				&lt;li&gt;Portlet name—select the portlet name to display the portlet’s edit page.&lt;/li&gt;
+				&lt;li&gt;Actions—select an action to perform on the portlet.&lt;/li&gt;
+				&lt;li&gt;Filters—refine the search by filtering for criteria.&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;ul&gt;
+				&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreoncriteria'')"&gt;More on search criteria...&lt;/a&gt;&lt;/li&gt;
+				&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreonfilter'')"&gt;More on the Filter box...&lt;/a&gt;&lt;/li&gt;
+				&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreonnavlinks'')"&gt;More about navigation links...&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+    		&lt;div style="clear: both;"&gt;&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div id="moreoncriteria" style="display: none"&gt;
+			&lt;h3&gt;Search criteria&lt;/h3&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;b&gt;Search&lt;/b&gt; &amp;mdash; enter search terms.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;search&lt;/b&gt; &amp;mdash; select this button or press the Enter key to display items that match the search criteria.&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpmain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+		&lt;/div&gt;
+
+		&lt;div id="moreonfilter" style="display: none"&gt;
+			&lt;h3&gt;Filter box&lt;/h3&gt;
+			&lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the  &lt;img src="{0}"&gt; toggle button to maximise or minimise the portlet.&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;b&gt;Filter by Owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;select user&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; dialog where owners can be found by name search then selected to filter the search results.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Filter by type&lt;/b&gt; &amp;mdash; expand the drop-down menu to choose to a specific portlet type, or choose the default option All portlets.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Filter by visibility&lt;/b&gt; &amp;mdash; expand the drop-down menu to choose to view portlets that are viewable to others, user portlets, or all portlets.&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpmain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+		&lt;/div&gt;
+
+		&lt;div id="moreonnavlinks" style="display: none"&gt;
+			&lt;h3&gt;Navigation menu&lt;/h3&gt;
+			&lt;p&gt;
+				The navigation menu is displayed on the left-hand side of the page and display links for accessing content that include standard EQUELLA
+				links and system links configured by the administrator. The links displayed depend on the privileges granted by the System Administrator.
+			&lt;/p&gt;
+			&lt;p&gt;Navigation menu links can include:&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; Dashboard, Search, Contribute, Favourites, My resources.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; Administrator configurable links that can be an alternative to a portlet when access to content is required. Add custom links to the navigation menu by selecting Settings from the navigation menu then Edit custom links.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Administrator links&lt;/b&gt; &amp;mdash; Settings, Manage resources.&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpmain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+		&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.myresources.main">
+&lt;div id="main" &gt;
+&lt;h3&gt;My resources&lt;/h3&gt;
+
+&lt;p&gt;The My resources page provides access to all resources that you own or share. 
+Resources are categorised by status with each category being displayed on a different page that 
+can be accessed using the links immediately below the page title. 
+&lt;a href="javascript:void(0)" onclick="switchText(''moreCategories'')"&gt;More about categories...&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A list of resources is displayed that match the categorisation criteria. 
+Select the title of a listed resource to view the resource. 	
+&lt;a href="javascript:void(0)" onclick="switchText(''moreListed'')"&gt;More about listed resources...&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the Add search to favourites or Share search query buttons to save or share the resource list.&lt;/p&gt;
+
+&lt;p&gt;Use the Sort and Filter portlets to order or reduce the number of resources displayed.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreAddSearchFavorites'')"&gt;More about Add search to favourites...&lt;/a&gt;&lt;/li&gt;
+	&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreShare'')"&gt;More about Share search query...&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;h3&gt;Other page features&lt;/h3&gt;
+ 		 
+&lt;ul&gt;
+	&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSortBox'')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+	&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreFilterBox'')"&gt;More about the Filter box...&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.hierarchy.commonmoredivs">
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and provides links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreAdministrators" style="display: none"&gt;
+	&lt;h3&gt;Further information for portlet administrators&lt;/h3&gt;
+	&lt;p&gt;The following controls are only displayed to portlet administrators:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Disabled&lt;/b&gt; &amp;mdash; disables the portlet and removes it from the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show for other users&lt;/b&gt; &amp;mdash check this checkbox to add this portlet to every user’s dashboard and enable the options:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Users can close&lt;/b&gt; &amp;mdash check this checkbox to allow users to remove the portlet from their dashboard.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Users can minimise&lt;/b&gt; &amp;mdash check this checkbox to allow users to reduce the portlet to its title bar.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Visible to&lt;/b&gt; &amp;mdash select the &lt;b&gt;CHANGE...&lt;/b&gt; button to restrict the portlet to selected users, roles or groups. The selected users, roles or groups are displayed.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+		
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.searching.selection.helppage">
+&lt;div id="selectionHelpMain"&gt;
+	&lt;h3&gt;Search&lt;/h3&gt;
+	&lt;p&gt;This page provides access to repository resources and functionality for viewing, sorting and filtering results. Enter a Search term then select the search icon to display the matching resources. During a session this page displays the last search criteria and filters applied whenever the page is displayed.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSearch'')"&gt;More about searching...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;Select the Sort tab to select sort options - &lt;a href="javascript:void(0)" onclick="switchText(''moreSortBox'')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;Select the Filter tab to set filter criteria - &lt;a href="javascript:void(0)" onclick="switchText(''moreFilterBox'')"&gt;More about the Filter box... &lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;Select the Save tab to add the search to favourites - &lt;a href="javascript:void(0)" onclick="switchText(''moreAddFavorites'')"&gt;More about Add search to favourites... &lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;Select the Share tab to share the search query with other users - &lt;a href="javascript:void(0)" onclick="switchText(''moreShare'')"&gt;More about Share search query... &lt;/a&gt;&lt;/li&gt;	
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt; 
+	&lt;h3&gt;Choose EQUELLA resources&lt;/h3&gt;
+	&lt;p&gt;Drag and drop resources to the required areas below or click the Select button to add the resource to the highlighted area. Click Save once selections are complete.&lt;/p&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreSearch" style="display: none"&gt;
+	&lt;h3&gt;More about searching&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Search&lt;/b&gt; &amp;mdash; enter search terms.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Within&lt;/b&gt; &amp;mdash; select a collection, all resources, advanced search or the remote repository option from the drop-down list by clicking or navigating with the keyboard. Press &lt;kbd&gt;Esc&lt;/kbd&gt; or click out of the dropdown to close it.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;SEARCH&lt;/b&gt; &amp;mdash; select this button or press the Enter key to display items that match the search criteria.&lt;/li&gt;
+	&lt;/ul&gt;	
+	&lt;p&gt;Search results can be displayed in groups of 10, 50 or 100 per page, with paging displayed at the end of the search results page. The information displayed for each match comprises:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Item title&lt;/b&gt; &amp;mdash; select this link to display the resource summary page.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; &amp;mdash; displays the resource status and when it was last updated.&lt;/li&gt;
+		&lt;li&gt;&lt;x&gt;&lt;b&gt;comments&lt;/b&gt; &amp;mdash; select this link to display the resource summary page where comments and ratings can be entered.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Add to favourites&lt;/b&gt; &amp;mdash; select this link to add the resource to the favourites list.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link to remove the resource from your favourites list. This link is only displayed for resources that have been added to your favourites list.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreAddRemoveFavourites'')"&gt;More about Add/Remove favourites…&lt;/a&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''selectionHelpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;	
+
+&lt;div id="moreAddRemoveFavourites" style="display:none"&gt;
+	&lt;h3&gt;More about Add/Remove favourites&lt;/h3&gt; 
+	&lt;p&gt;Resources can be added to your Favourites page for quick access.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Add to favourites&lt;/b&gt; &amp;mdash; select this link to display the Add to favourites dialog where tags can be entered to simplify searching. Select the resource version to display in the favourites page:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Always use latest version&lt;/b&gt; &amp;mdash; select this option to use the latest version when the current version is superseded.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;This version&lt;/b&gt; &amp;mdash; select this option to use this version even when later versions are available.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+		&lt;li&gt;Select ADD to add to your favourites resources list and return to the resource summary or CANCEL to return to the resource summary without creating a favourite.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link then OK to confirm, to remove this resource from your favourites resources list.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSearch'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreAddFavorites" style="display: none"&gt;
+	&lt;h3&gt;More about Add search to favourites&lt;/h3&gt;
+	&lt;p&gt;Searches can be saved for future use by adding them to the &lt;b&gt;Favourites&lt;/b&gt; page.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Add search to favourites&lt;/b&gt; &amp;mdash; select this button to display the &lt;b&gt;Add search to favourites&lt;/b&gt; dialog where a name must be entered to help identify the search. 
+		Select &lt;b&gt;ADD&lt;/b&gt; to save the search or &lt;b&gt;CANCEL&lt;/b&gt; to discard the search and return to the search results page.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''selectionHelpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id="moreShare" style="display: none"&gt;
+	&lt;h3&gt;More about Share search query&lt;/h3&gt;
+	&lt;p&gt;Search results can be shared with other users by sending them the search query for their use.&lt;/p&gt;
+	&lt;p&gt;&lt;b&gt;Share search query&lt;/b&gt; &amp;mdash; select this button to display the &lt;b&gt;Share search query&lt;/b&gt; dialog where results can be shared by:&lt;/P&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;RSS or Atom feed&lt;/b&gt; &amp;mdash; copy these options to a feed reader to be notified when the results list changes for this search.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Share search results via URL&lt;/b&gt; &amp;mdash; copy the displayed link URL to a document or email to share. When selected this link will require the user to log into EQUELLA to view the search results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Share search results via email&lt;/b&gt; &amp;mdash; enter an email address to send the search results by email to other users. &lt;b&gt;Check the Share only results viewable by guests&lt;/b&gt; when sending to non-EQUELLA users. &lt;/li&gt;
+		&lt;li&gt;Select &lt;img src="{0}"&gt; to close the dialog and display the results page.&lt;/li&gt;	
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''selectionHelpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreSortBox" style="display: none"&gt;
+	&lt;h3&gt;More about the Sort box&lt;/h3&gt; 
+	&lt;p&gt;The Sort box provides options for sorting results lists. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Sort results by&lt;/b&gt; &amp;mdash; select an option from the drop-down list to change the sort order.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Reverse order of results&lt;/b&gt; &amp;mdash; check this checkbox to reverse the default sort order e.g. reverses a Title ordering from A-Z to Z-A.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''selectionHelpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFilterBox" style="display: none"&gt;
+	&lt;h3&gt;More about the Filter box&lt;/h3&gt;
+	&lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.
+	Multiple filters can be appliedand can include the following filters:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Filter by keyword&lt;/b&gt; &amp;mdash; enter a keyword then select the &lt;b&gt;SEARCH&lt;/b&gt; button to reduce the display to matching results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by collection&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results from the selected collection.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by status&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected status.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT USER&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; dialog where owners can be found by name search then selected to filter the search results. Select the CHANGE USER button to change the owner selected or select the CLEAR button to remove.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by date modified&lt;/b&gt; &amp;mdash; select an option from the drop-down list then enter or select a date. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by resource type&lt;/b&gt; &amp;mdash; select a checkbox to display only matching resources.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by assignment&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results with the selected user assignment. Check &lt;b&gt;Only show tasks that I must moderate&lt;/b&gt; to display tasks that you must moderate.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by course&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT COURSE&lt;/b&gt; button to display the &lt;b&gt;Select a course&lt;/b&gt; dialog where courses can be found by name search then selected to filter the search results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Activation range&lt;/b&gt; &amp;mdash; enter or select a date for end date, start date and activated to filter results. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by type&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected type.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by visibility&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected visibility.&lt;/li&gt;	
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''selectionHelpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.portal.standard.htmlportleteditorhelp">
+&lt;div id="htmlMain" &gt;
+	&lt;h3&gt;Edit Formatted text portlet&lt;/h3&gt;
+	&lt;p&gt;The &lt;b&gt;Formatted text&lt;/b&gt; portlet displays displays text created using the portlet’s text editor.&lt;p&gt;
+	
+	&lt;p&gt;To configure the portlet:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Title&lt;/b&gt; &amp;mdash; enter the portlet name displayed in the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Text editor&lt;/b&gt; &amp;mdash; enter the text to be displayed in the portlet. The text editor provides all the formatting and functionality of most word processors.&lt;/li&gt;
+		&lt;li&gt;Select save to create the portlet and display it on the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;Select cancel to discard any entered information and return to the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		{0}
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''htmlMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreAdministrators" style="display: none"&gt;
+	&lt;h3&gt;Further information for portlet administrators&lt;/h3&gt;
+	&lt;p&gt;The following controls are only displayed to portlet administrators:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Disabled&lt;/b&gt; &amp;mdash; disables the portlet and removes it from the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show for other users&lt;/b&gt; &amp;mdash check this checkbox to add this portlet to every user’s dashboard and enable the options:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Users can close&lt;/b&gt; &amp;mdash check this checkbox to allow users to remove the portlet from their dashboard.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Users can minimise&lt;/b&gt; &amp;mdash check this checkbox to allow users to reduce the portlet to its title bar.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Visible to&lt;/b&gt; &amp;mdash select the &lt;b&gt;CHANGE...&lt;/b&gt; button to restrict the portlet to selected users, roles or groups. The selected users, roles or groups are displayed.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+		
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''htmlMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.mimetypes.moreConfigureViewerEdit">
+
+&lt;div id="moreConfigureViewerEdit" style="display:none;"&gt;
+	&lt;h3&gt;More on the Configure viewer dialog&lt;/h3&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;Check the Open in new window checkbox to display files selected from the results list in a new window for this viewer.&lt;/li&gt;
+		&lt;li&gt;Check the Use fancybox checkbox to display the file with a wide border.&lt;/li&gt;
+		&lt;li&gt;Enter the width of the viewer. When the number is followed by a percentage sign (i.e. %) the width is a percentage of the screen resolution otherwise the width is interpreted as pixels.&lt;/li&gt;
+		&lt;li&gt;Enter a number for the height of the viewer. When the number is followed by a percentage sign (i.e. %) the height is a percentage of the screen resolution otherwise the height is interpreted as pixels.&lt;/li&gt;
+		&lt;li&gt;Check the Append SSO token checkbox to append a single sign on (SSO) token to the end of the resource URL.&lt;/li&gt;
+		&lt;li&gt;Select the OK button to save the viewer configuration and close the dialog, otherwise select the &lt;input type="button" class="button" value="Cancel"&gt; button to discard any changes and close the dialog.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreViewersEdit'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.itemadmin.moreSearchTerms">
+&lt;div id="moreSearchTerms" style="display:none;"&gt;
+	&lt;h3&gt;More on search criteria&lt;/h3&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Search&lt;/b&gt; &amp;mdash; enter search terms.
+		&lt;li&gt;&lt;b&gt;Within&lt;/b&gt; &amp;mdash; select a collection or system wide search from the drop-down list.
+		&lt;li&gt;&lt;button id="searchform-search" class="btn btn-primary add-on btn-equella btn-mini" type="button" style="display: inline-block"&gt;&lt;i class="icon-search icon-white"&gt;&lt;/i&gt;
+&lt;/button&gt; &amp;mdash; select this button or press the Enter key to display items that match the search criteria.
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.portal.enduser.noportlets.helptext">
+		&lt;p&gt;Select the &lt;b&gt;SCREEN OPTIONS&lt;/b&gt; button to add portlets to the dashboard, an example is shown below.&lt;/p&gt;
+		&lt;img src="{0}" alt="The screen options and help buttons can be found in the top right hand corner, after the page title"&gt;
+
+		&lt;p&gt;To add an example &lt;em&gt;'Welcome'&lt;/em&gt; portlet to be displayed to all EQUELLA users, complete the following:&lt;/p&gt;
+		&lt;ol&gt;
+			&lt;li&gt;Select the &lt;b&gt;SCREEN OPTIONS&lt;/b&gt; button to display a list of portlets.&lt;/li&gt;
+			&lt;li&gt;Select the &lt;b&gt;Formatted text&lt;/b&gt; option to display the &lt;b&gt;Create portlet&lt;/b&gt; page.&lt;/li&gt;
+			&lt;li&gt;Configure the details as required, an example is shown below:
+				&lt;ol&gt;
+					&lt;li&gt;Select to allow users to close or minimise the portlet as required.&lt;/li&gt;
+					&lt;li&gt;Select the &lt;b&gt;CHANGE&lt;/b&gt; button to display the &lt;b&gt;Select recipients&lt;/b&gt; dialog.&lt;/li&gt;
+					&lt;li&gt;Search for the users, groups or roles then select the &lt;b&gt;OK&lt;/b&gt; button.&lt;/li&gt;
+					&lt;li&gt;
+						Enter text in the HTML Editor pane.
+						&lt;img class="removetwoindentsfornoportal" src="{1}" alt="Enter any text with markup in the HTML Editor to have it displayed in the portal"&gt;
+					&lt;/li&gt;
+					&lt;li&gt;Select the &lt;b&gt;SAVE&lt;/b&gt; button to display the portlet on the user's Dashboard.&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/li&gt;
+		&lt;/ol&gt;
+	</entry>
+<entry key="com.tle.web.favourites.selection.commonmoredivs">
+&lt;div id="moreSortBox" style="display: none"&gt;
+  &lt;h3&gt;More about the Sort box...&lt;/h3&gt;
+  &lt;p&gt;The Sort box provides options for sorting results lists. Select the &lt;img src="{0}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+  &lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Sort results by&lt;/b&gt; &amp;mdash; select an option from the drop-down list to change the sort order.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Reverse order of results&lt;/b&gt; &amp;mdash; check this checkbox to reverse the default sort order e.g. reverses a Title ordering from A-Z to Z-A.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''favMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFilterBox" style="display: none"&gt;
+  &lt;h3&gt;More about the Filter box...&lt;/h3&gt;
+  &lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the &lt;img src="{0}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+  &lt;p&gt;Multiple filters can be applied and can include the following filters:&lt;/p&gt;
+  &lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Filter by keyword&lt;/b&gt; &amp;mdash; enter a keyword then select the &lt;b&gt;SEARCH&lt;/b&gt; button to reduce the display to matching results.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by collection&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results from the selected collection.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by status&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected status.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT USER&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; dialog where owners can be found by name search then selected to filter the search results. Select the CHANGE USER button to change the owner selected or select the CLEAR button to remove.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by date modified&lt;/b&gt; &amp;mdash; select an option from the drop-down list then enter or select a date. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by resource type&lt;/b&gt; &amp;mdash; select a checkbox to display only matching resources.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by assignment&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results with the selected user assignment. Check &lt;b&gt;Only show tasks that I must moderate&lt;/b&gt; to display tasks that you must moderate.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by course&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT COURSE&lt;/b&gt; button to display the &lt;b&gt;Select a course&lt;/b&gt; dialog where courses can be found by name search then selected to filter the search results.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Activation range&lt;/b&gt; &amp;mdash; enter or select a date for end date, start date and activated to filter results. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by type&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected type.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by visibility&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected visibility.&lt;/li&gt;	
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''favMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.itemadmin.moreActions">
+&lt;div id="moreCowbell" style="display: none"&gt;
+	&lt;h3&gt;More on performing an action&lt;/h3&gt;
+	
+	&lt;p&gt;An action is performed on all the selected resources. Actions requiring multiple steps will 
+	enable the &lt;button class="btn btn-equella"&gt;&lt;i class="icon-arrow-left icon-white"&gt;&lt;/i&gt; Prev&lt;/button&gt; and &lt;button class="btn btn-equella"&gt;Next &lt;i class="icon-arrow-right icon-white"&gt;&lt;/i&gt;&lt;/button&gt; buttons for entry of further action information.&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Choose an action to perform&lt;/b&gt; &amp;mdash; select an action from the drop-down list. Actions requiring multiple steps will enable the &lt;button class="btn btn-equella"&gt;Next &lt;i class="icon-arrow-right icon-white"&gt;&lt;/i&gt;&lt;/button&gt; button.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Selected resource list&lt;/b&gt; &amp;mdash; displays all selected resources. Select the &lt;img src="{0}" alt="Remove"&gt; button to remove the resource from this list.&lt;/li&gt;
+		&lt;li&gt;&lt;button class="btn btn-equella"&gt;&lt;i class="icon-arrow-left icon-white"&gt;&lt;/i&gt; Prev&lt;/button&gt; &amp;mdash; select this button to return to the previous step in a multi-step action.&lt;/li&gt;
+		&lt;li&gt;&lt;button class="btn btn-success"&gt;&lt;i class="icon-ok icon-white"&gt;&lt;/i&gt; Execute&lt;/button&gt; &amp;mdash; select this button to perform the selected action.&lt;/li&gt;
+		&lt;li&gt;&lt;button class="btn btn-equella"&gt;Next &lt;i class="icon-arrow-right icon-white"&gt;&lt;/i&gt;&lt;/button&gt; &amp;mdash; select this button to display the next step in a multi-step action.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.favourites.commonportletmoredivs">
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''favportletMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreAdministrators" style="display: none"&gt;
+	&lt;h3&gt;Further information for portlet administrators&lt;/h3&gt;
+	&lt;p&gt;The following controls are only displayed to portlet administrators:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Disabled&lt;/b&gt; &amp;mdash; disables the portlet and removes it from the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show for other users&lt;/b&gt; &amp;mdash check this checkbox to add this portlet to every user’s dashboard and enable the options:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Users can close&lt;/b&gt; &amp;mdash check this checkbox to allow users to remove the portlet from their dashboard.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Users can minimise&lt;/b&gt; &amp;mdash check this checkbox to allow users to reduce the portlet to its title bar.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Visible to&lt;/b&gt; &amp;mdash select the &lt;b&gt;CHANGE...&lt;/b&gt; button to restrict the portlet to selected users, roles or groups. The selected users, roles or groups are displayed.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+		
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''favportletMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.searching.helppage.moreNavigation">
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpMain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.myresources.commonmoredivs">
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''myresourcesMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreAdministrators" style="display: none"&gt;
+	&lt;h3&gt;Further information for portlet administrators&lt;/h3&gt;
+	&lt;p&gt;The following controls are only displayed to portlet administrators:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Disabled&lt;/b&gt; &amp;mdash; disables the portlet and removes it from the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show for other users&lt;/b&gt; &amp;mdash check this checkbox to add this portlet to every user’s dashboard and enable the options:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Users can close&lt;/b&gt; &amp;mdash check this checkbox to allow users to remove the portlet from their dashboard.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Users can minimise&lt;/b&gt; &amp;mdash check this checkbox to allow users to reduce the portlet to its title bar.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Visible to&lt;/b&gt; &amp;mdash select the &lt;b&gt;CHANGE...&lt;/b&gt; button to restrict the portlet to selected users, roles or groups. The selected users, roles or groups are displayed.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+		
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''myresourcesMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.itemadmin.main">
+&lt;div id="main" &gt;
+	&lt;h3&gt;Manage resources&lt;/h3&gt;
+	
+	&lt;p&gt;The Manage resources page provides functionality for managing multiple resources.  To manage resources enter search criteria, select resources from the  
+	results then select the Perform an action button to display the Bulk Actions dialog.  Choose then EXECUTE an action.&lt;/p&gt;
+
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSearchTerms'')"&gt;More on search criteria...&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSearchResults'')"&gt;More on search results...&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSelection'')"&gt;More on selection...&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreCowbell'')"&gt;More on performing an action...&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreShare'')"&gt;More about Share search query...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;br&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSortBox'')"&gt;More on the Sort box...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreFilterBox'')"&gt;More on the Filter box...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.search.helppage.moreNavigation">
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpMain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.hierarchy.selection.helppage">
+&lt;div id="helpMain" &gt;
+	&lt;h3&gt;Browse&lt;/h3&gt;
+	&lt;p&gt;The Browse page provides access to resources by grouping resources using the hierarchy categories.&lt;/p&gt;
+	&lt;p&gt;Browse pages can be sorted, filtered, saved to favourites or shared as search queries.&lt;/p&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;Select the Sort tab to select sort options - &lt;a href="javascript:void(0)" onclick="switchText(''moreSortBox'')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;Select the Filter tab to set filter criteria - &lt;a href="javascript:void(0)" onclick="switchText(''moreFilterBox'')"&gt;More about the Filter box... &lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;Select the Save tab to add the search to favourites - &lt;a href="javascript:void(0)" onclick="switchText(''moreAddFavorites'')"&gt;More about Add search to favourites... &lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;Select the Share tab to share the search query with other users - &lt;a href="javascript:void(0)" onclick="switchText(''moreShare'')"&gt;More about Share search query... &lt;/a&gt;&lt;/li&gt;	
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+	&lt;h3&gt;Choose EQUELLA resources&lt;/h3&gt;
+	&lt;p&gt;Drag and drop resources to the required areas below or click the Select button to add the resource to the highlighted area. Click Save once selections are complete.&lt;/p&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;div id="moreAddFavorites" style="display: none"&gt;
+	&lt;h3&gt;More on adding a browse page to favourites&lt;/h3&gt;
+	&lt;p&gt;Browse pages can be saved for future use by adding them to the favourites page.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Add search to favourites&lt;/b&gt; &amp;mdash; select this button to display the Add search to favourites dialog where a name can be entered to help identify the browse page. Select ok to save the search or cancel to discard the search and return to the search page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;	
+
+&lt;div id="moreShare" style="display: none"&gt;
+	&lt;h3&gt;More on sharing a browse page&lt;/h3&gt;
+	&lt;p&gt;Browse pages can be shared with other users as a search query.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;
+			&lt;b&gt;Share search query&lt;/b&gt; &amp;mdash; select this button to display the &lt;b&gt;Share search query&lt;/b&gt; dialog where results can be shared by:
+			&lt;ul&gt;
+				&lt;li&gt;&lt;b&gt;RSS or Atom feed&lt;/b&gt; &amp;mdash; copy these options to a feed reader to be notified when the results list changes for this search.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Share search results via URL&lt;/b&gt; &amp;mdash; copy the displayed link URL to a document or email to share. When selected this link will require the user to log into EQUELLA to view the search results.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Share search results via email&lt;/b&gt; &amp;mdash; enter an email address to send the search results by email to other users. &lt;b&gt;Check the Share only results viewable by guests&lt;/b&gt; when sending to non-EQUELLA users. &lt;/li&gt;
+				&lt;li&gt;Select &lt;img src="{0}"&gt; to close the dialog and display the results page.&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreSortBox" style="display: none"&gt;
+	&lt;h3&gt;More about the Sort box&lt;/h3&gt; 
+	&lt;p&gt;The Sort box provides options for sorting results lists. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Sort results by&lt;/b&gt; &amp;mdash; select an option from the drop-down list to change the sort order.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Reverse order of results&lt;/b&gt; &amp;mdash; check this checkbox to reverse the default sort order e.g. reverses a Title ordering from A-Z to Z-A.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFilterBox" style="display: none"&gt;
+	&lt;h3&gt;More about the Filter box&lt;/h3&gt;
+	&lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.
+	Multiple filters can be appliedand can include the following filters:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Filter by keyword&lt;/b&gt; &amp;mdash; enter a keyword then select the &lt;b&gt;SEARCH&lt;/b&gt; button to reduce the display to matching results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT USER&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; dialog where owners can be found by name search then selected to filter the search results. Select the CHANGE USER button to change the owner selected or select the CLEAR button to remove.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by date modified&lt;/b&gt; &amp;mdash; select an option from the drop-down list then enter or select a date. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by resource type&lt;/b&gt; &amp;mdash; select a checkbox to display only matching resources.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.mimetypes.moreNavigation">
+
+&lt;div id="moreNavigation" style="display:none;"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	 
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.itemadmin.moreNavigation">
+&lt;div id="moreNavigation" style="display:none;"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	 
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.favourites.commonmoredivs">
+&lt;div id="moreNavMenu" style="display: none"&gt;
+ &lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+ &lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links. 
+ The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+ &lt;ul&gt; 
+ &lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+ Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''favMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreSortBox" style="display: none"&gt;
+  &lt;h3&gt;More about the Sort box...&lt;/h3&gt;
+  &lt;p&gt;The Sort box provides options for sorting results lists. Select the &lt;img src="{0}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+  &lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Sort results by&lt;/b&gt; &amp;mdash; select an option from the drop-down list to change the sort order.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Reverse order of results&lt;/b&gt; &amp;mdash; check this checkbox to reverse the default sort order e.g. reverses a Title ordering from A-Z to Z-A.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''favMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFilterBox" style="display: none"&gt;
+  &lt;h3&gt;More about the Filter box...&lt;/h3&gt;
+  &lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the &lt;img src="{0}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+  &lt;p&gt;Multiple filters can be applied and can include the following filters:&lt;/p&gt;
+  &lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Filter by keyword&lt;/b&gt; &amp;mdash; enter a keyword then select the &lt;b&gt;SEARCH&lt;/b&gt; button to reduce the display to matching results.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by collection&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results from the selected collection.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by status&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected status.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT USER&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; dialog where owners can be found by name search then selected to filter the search results. Select the CHANGE USER button to change the owner selected or select the CLEAR button to remove.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by date modified&lt;/b&gt; &amp;mdash; select an option from the drop-down list then enter or select a date. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by resource type&lt;/b&gt; &amp;mdash; select a checkbox to display only matching resources.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by assignment&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results with the selected user assignment. Check &lt;b&gt;Only show tasks that I must moderate&lt;/b&gt; to display tasks that you must moderate.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by course&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT COURSE&lt;/b&gt; button to display the &lt;b&gt;Select a course&lt;/b&gt; dialog where courses can be found by name search then selected to filter the search results.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Activation range&lt;/b&gt; &amp;mdash; enter or select a date for end date, start date and activated to filter results. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by type&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected type.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by visibility&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected visibility.&lt;/li&gt;	
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''favMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.portal.standard.iframeportleteditorhelp">
+&lt;div id="iframeMain" &gt;
+	&lt;h3&gt;Edit Web page portlet&lt;/h3&gt;
+	&lt;p&gt;The &lt;b&gt;Web page&lt;/b&gt; portlet provides a mini-browser that displays the configured URL.&lt;p&gt;
+	
+	&lt;p&gt;To configure the portlet:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Title&lt;/b&gt; &amp;mdash; enter the portlet name displayed in the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;URL&lt;/b&gt; &amp;mdash; enter the address of the displayed web page.&lt;/li&gt;
+		&lt;li&gt;Select save to create the portlet and display it on the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;Select cancel to discard any entered information and return to the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		{0}
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''iframeMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreAdministrators" style="display: none"&gt;
+	&lt;h3&gt;Further information for portlet administrators&lt;/h3&gt;
+	&lt;p&gt;The following controls are only displayed to portlet administrators:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Disabled&lt;/b&gt; &amp;mdash; disables the portlet and removes it from the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show for other users&lt;/b&gt; &amp;mdash check this checkbox to add this portlet to every user’s dashboard and enable the options:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Users can close&lt;/b&gt; &amp;mdash check this checkbox to allow users to remove the portlet from their dashboard.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Users can minimise&lt;/b&gt; &amp;mdash check this checkbox to allow users to reduce the portlet to its title bar.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Visible to&lt;/b&gt; &amp;mdash select the &lt;b&gt;CHANGE...&lt;/b&gt; button to restrict the portlet to selected users, roles or groups. The selected users, roles or groups are displayed.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+		
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''iframeMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.itemadmin.moreSortBox">
+&lt;div id="moreSortBox" style="display:none;"&gt;
+	&lt;h3&gt;More on the Sort box&lt;/h3&gt;
+	
+	&lt;p&gt;The Sort box provides options for sorting results lists. Select the &lt;img src="{0}" alt="Minimise / Maximise"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Sort results by&lt;/b&gt; &amp;mdash; select an option from the drop-down list to change the sort order.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Reverse order of results&lt;/b&gt; &amp;mdash; check this checkbox to reverse the default sort order e.g. reverses a Title ordering from A-Z to Z-A.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.viewitem.summary.summary.content.summary.item.selection.help">
+&lt;div id="resourceSelect"&gt;
+	&lt;h3&gt;Choose EQUELLA resources&lt;/h3&gt;
+	&lt;p&gt;Drag and drop resources to the required areas below or click the Select button to add the resource to the highlighted area. Click Save once selections are complete.&lt;/p&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.portal.standard.rssportleteditorhelp">
+&lt;div id="rssMain" &gt;
+	&lt;h3&gt;Edit RSS or Atom feed portlet&lt;/h3&gt;
+	&lt;p&gt;The &lt;b&gt;RSS or Atom feed&lt;/b&gt; portlet can be configured to display the latest listings of a specified feed.&lt;p&gt;
+	
+	&lt;p&gt;To configure the portlet:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Title&lt;/b&gt; &amp;mdash; enter the portlet name displayed in the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;URL&lt;/b&gt; &amp;mdash; enter the feed URL.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Default number of results&lt;/b&gt; &amp;mdash; enter the number of results to display in the portlet. If any further results are available beyond the set maximum, users can display those by selecting the show more portlet button.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Display&lt;/b&gt; &amp;mdash; select an option from the drop-down list.&lt;/li&gt;
+		&lt;li&gt;Select save to create the portlet and display it on the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;Select cancel to discard any entered information and return to the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		{0}
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''rssMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreAdministrators" style="display: none"&gt;
+	&lt;h3&gt;Further information for portlet administrators&lt;/h3&gt;
+	&lt;p&gt;The following controls are only displayed to portlet administrators:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Disabled&lt;/b&gt; &amp;mdash; disables the portlet and removes it from the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show for other users&lt;/b&gt; &amp;mdash check this checkbox to add this portlet to every user’s dashboard and enable the options:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Users can close&lt;/b&gt; &amp;mdash check this checkbox to allow users to remove the portlet from their dashboard.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Users can minimise&lt;/b&gt; &amp;mdash check this checkbox to allow users to reduce the portlet to its title bar.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Visible to&lt;/b&gt; &amp;mdash select the &lt;b&gt;CHANGE...&lt;/b&gt; button to restrict the portlet to selected users, roles or groups. The selected users, roles or groups are displayed.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+		
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''rssMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.myresources.moreNavigation">
+
+&lt;div id="moreNavigation" style="display:none;"&gt;
+&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+
+&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+
+&lt;ul&gt; 
+	&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+	Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.myresources.moreAddItemFavourites">
+
+&lt;div id="moreAddItemFavourites" style="display:none"&gt;
+&lt;h3&gt;More about Add/Remove favourites&lt;/h3&gt; 
+
+&lt;p&gt;Resources can be added to your Favourites page for quick access.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Add to favourites&lt;/b&gt; &amp;mdash; select this link to display the Add to favourites dialog where tags can be entered to simplify searching. Select the resource version to display in the favourites page:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Always use latest version&lt;/b&gt; &amp;mdash; select this option to use the latest version when the current version is superseded.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;This version&lt;/b&gt; &amp;mdash; select this option to use this version even when later versions are available.&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Select ADD to add to your favourites resources list and return to the resource summary or CANCEL to return to the resource summary without creating a favourite.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link then OK to confirm, to remove this resource from your favourites resources list.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.portal.enduser.noportlets.spiel">
+		&lt;p&gt;Select an option from the navigation menu to the left to use EQUELLA features.&lt;/p&gt;
+		&lt;p&gt;Select the &lt;b&gt;HELP&lt;/b&gt; button to show or hide online help.&lt;/p&gt;
+	</entry>
+<entry key="com.tle.web.hierarchy.helppage">
+&lt;div id="helpMain" &gt;
+	&lt;h3&gt;Browse&lt;/h3&gt;
+	&lt;p&gt;The Browse page provides access to resources by grouping resources using the hierarchy categories.&lt;/p&gt;
+	&lt;p&gt;Browse pages can be sorted, filtered, saved to favourites or shared as search queries.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreAddFavorites'')"&gt;More on adding a browse page to favourites...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreShare'')"&gt;More on sharing a browse page...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSortBox'')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreFilterBox'')"&gt;More about the Filter box... &lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreAddFavorites" style="display: none"&gt;
+	&lt;h3&gt;More on adding a browse page to favourites&lt;/h3&gt;
+	&lt;p&gt;Browse pages can be saved for future use by adding them to the favourites page.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Add search to favourites&lt;/b&gt; &amp;mdash; select this button to display the Add search to favourites dialog where a name can be entered to help identify the browse page. Select ok to save the search or cancel to discard the search and return to the search page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;	
+
+&lt;div id="moreShare" style="display: none"&gt;
+	&lt;h3&gt;More on sharing a browse page&lt;/h3&gt;
+	&lt;p&gt;Browse pages can be shared with other users as a search query.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;
+			&lt;b&gt;Share search query&lt;/b&gt; &amp;mdash; select this button to display the &lt;b&gt;Share search query&lt;/b&gt; dialog where results can be shared by:
+			&lt;ul&gt;
+				&lt;li&gt;&lt;b&gt;RSS or Atom feed&lt;/b&gt; &amp;mdash; copy these options to a feed reader to be notified when the results list changes for this search.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Share search results via URL&lt;/b&gt; &amp;mdash; copy the displayed link URL to a document or email to share. When selected this link will require the user to log into EQUELLA to view the search results.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Share search results via email&lt;/b&gt; &amp;mdash; enter an email address to send the search results by email to other users. &lt;b&gt;Check the Share only results viewable by guests&lt;/b&gt; when sending to non-EQUELLA users. &lt;/li&gt;
+				&lt;li&gt;Select &lt;img src="{0}"&gt; to close the dialog and display the results page.&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreSortBox" style="display: none"&gt;
+	&lt;h3&gt;More about the Sort box&lt;/h3&gt; 
+	&lt;p&gt;The Sort box provides options for sorting results lists. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Sort results by&lt;/b&gt; &amp;mdash; select an option from the drop-down list to change the sort order.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Reverse order of results&lt;/b&gt; &amp;mdash; check this checkbox to reverse the default sort order e.g. reverses a Title ordering from A-Z to Z-A.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFilterBox" style="display: none"&gt;
+	&lt;h3&gt;More about the Filter box&lt;/h3&gt;
+	&lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.
+	Multiple filters can be appliedand can include the following filters:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Filter by keyword&lt;/b&gt; &amp;mdash; enter a keyword then select the &lt;b&gt;SEARCH&lt;/b&gt; button to reduce the display to matching results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT USER&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; dialog where owners can be found by name search then selected to filter the search results. Select the CHANGE USER button to change the owner selected or select the CLEAR button to remove.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by date modified&lt;/b&gt; &amp;mdash; select an option from the drop-down list then enter or select a date. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by resource type&lt;/b&gt; &amp;mdash; select a checkbox to display only matching resources.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.favourites.selection.helpfavouritessearches">
+&lt;div id="favMain" &gt;
+&lt;h3&gt;Favourite Searches Page&lt;/h3&gt;
+&lt;p&gt;This page is used to display searches that have been saved as favourites. Searches are displayed with query and collection information. Searches and resources can be saved as favourites from search results or resource summary pages.&lt;/p&gt;
+&lt;p&gt;Searches can be ordered or filtered using the Sort and Filter boxes. Select the Resources link to display a list of favourite resources.
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreFavSearches')"&gt;More about Favourite searches...&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Other page features&lt;/h3&gt;
+  &lt;ul&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreSortBox')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreFilterBox')"&gt;More about the Filter box...&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div style="clear: both;"&gt;&lt;/div&gt; 
+&lt;h3&gt;Choose EQUELLA resources&lt;/h3&gt;
+	&lt;p&gt;Drag and drop resources to the required areas below or click the Select button to add the resource to the highlighted area. Click Save once selections are complete.&lt;/p&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFavSearches" style="display: none"&gt;
+  &lt;h3&gt;More about Favourite searches...&lt;/h3&gt;
+  &lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Search name&lt;/b&gt; &amp;mdash; select this link to display the Search page with a list of filtered results.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Query&lt;/b&gt; &amp;mdash; displays the search query entered for the search.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Within&lt;/b&gt; &amp;mdash; displays the collection or advanced search selected for the search.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Criteria&lt;/b&gt; &amp;mdash; displays the search criteria selected for the search.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;REMOVE&lt;/b&gt; &amp;mdash; select this button to remove the search from the list.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('favMain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</entry>
+<entry key="com.tle.web.itemadmin.moreFilterBox">
+&lt;div id="moreFilterBox" style="display:none;"&gt;
+	&lt;h3&gt;More on the Filter box&lt;/h3&gt;
+	
+	&lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the &lt;img src="{0}" alt="Minimise / Maximise"&gt; toggle button to maximise or minimise the box.
+	Multiple filters can be applied and can include the following filters:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Filter by owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT USER&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; 
+			dialog where owners can be found by name search then selected to filter the search results. 
+			Select the CHANGE USER button to change the owner selected or select the CLEAR button to remove.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by date modified&lt;/b&gt; &amp;mdash; select an option from the drop-down list then enter or select a date. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by status&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected status.&lt;/li&gt;			
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.favourites.helpfavouritessearches">
+&lt;div id="favMain" &gt;
+&lt;h3&gt;Favourite Searches Page&lt;/h3&gt;
+&lt;p&gt;This page is used to display searches that have been saved as favourites. Searches are displayed with query and collection information. Searches and resources can be saved as favourites from search results or resource summary pages.&lt;/p&gt;
+&lt;p&gt;Searches can be ordered or filtered using the Sort and Filter boxes. Select the Resources link to display a list of favourite resources.
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreFavSearches')"&gt;More about Favourite searches...&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Other page features&lt;/h3&gt;
+
+  &lt;ul&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreNavMenu')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreSortBox')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreFilterBox')"&gt;More about the Filter box...&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFavSearches" style="display: none"&gt;
+  &lt;h3&gt;More about Favourite searches...&lt;/h3&gt;
+  &lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Search name&lt;/b&gt; &amp;mdash; select this link to display the Search page with a list of filtered results.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Query&lt;/b&gt; &amp;mdash; displays the search query entered for the search.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Within&lt;/b&gt; &amp;mdash; displays the collection or advanced search selected for the search.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Criteria&lt;/b&gt; &amp;mdash; displays the search criteria selected for the search.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;REMOVE&lt;/b&gt; &amp;mdash; select this button to remove the search from the list.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('favMain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</entry>
+<entry key="com.tle.web.myresources.moreCategories">
+
+&lt;div id="moreCategories" style="display:none;"&gt;
+&lt;h3&gt;More about categories&lt;/h3&gt;
+
+&lt;p&gt;The resource categories are displayed as a series of links immediately below the page title. 
+Select a link to view a results list of the associated resources.&lt;/p&gt;
+
+&lt;p&gt;The available categories can include:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Published&lt;/b&gt; &amp;mdash; select this link to display a list of resources that are available to configured users of EQUELLA.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Drafts&lt;/b&gt; &amp;mdash; select this link to display a list of resources that have been saved as a draft for further editing.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Scrapbook&lt;/b&gt; &amp;mdash; select this link to display a list of personal resources that are not available to other users.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Moderation queue&lt;/b&gt; &amp;mdash; select this link to display a list of resources that are currently in a moderation workflow.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Archive&lt;/b&gt; &amp;mdash; select this link to display a list of your resources that have been archived.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;All resources&lt;/b&gt; &amp;mdash; select this link to display an uncategorised list of all your resources.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.itemadmin.moreShare">
+&lt;div id="moreShare" style="display: none"&gt;
+	&lt;h3&gt;More about Share search query&lt;/h3&gt;
+	
+	&lt;p&gt;Search results can be shared with other users by sending them the search query for their use.&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;
+			&lt;b&gt;Share search query&lt;/b&gt; &amp;mdash; select this button to display the &lt;b&gt;Share search query&lt;/b&gt; dialog where results can be shared by:
+			&lt;ul&gt;
+				&lt;li&gt;&lt;b&gt;RSS or Atom feed&lt;/b&gt; &amp;mdash; copy these options to a feed reader to be notified when the results list changes for this search.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Share search results via URL&lt;/b&gt; &amp;mdash; copy the displayed link URL to a document or email to share. When selected this link will require the user to log into EQUELLA to view the search results.&lt;/li&gt;
+				&lt;li&gt;&lt;b&gt;Share search results via email&lt;/b&gt; &amp;mdash; enter an email address to send the search results by email to other users. &lt;b&gt;Check the Share only results viewable by guests&lt;/b&gt; when sending to non-EQUELLA users. &lt;/li&gt;
+				&lt;li&gt;Select &lt;img src="{0}" alt="Close"&gt; to close the dialog and display the results page.&lt;/li&gt;	
+			&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.myresources.moreSortBox">
+
+&lt;div id="moreSortBox" style="display:none;"&gt;
+&lt;h3&gt;More about the Sort box&lt;/h3&gt;
+
+&lt;p&gt;The Sort box provides options for sorting results lists. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Sort results by&lt;/b&gt; &amp;mdash; select an option from the drop-down list to change the sort order.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Reverse order of results&lt;/b&gt; &amp;mdash; check this checkbox to reverse the default sort order e.g. reverses a Title ordering from A-Z to Z-A.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+&lt;ul&gt;
+	&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSearch'')"&gt;More about searching...&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;
+ --&gt;
+
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.myresources.moreFilterBox">
+
+&lt;div id="moreFilterBox" style="display:none;"&gt;
+&lt;h3&gt;More about the Filter box&lt;/h3&gt;
+
+&lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.
+Multiple filters can be appliedand can include the following filters:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Filter by keyword&lt;/b&gt; &amp;mdash; enter a keyword then select the &lt;b&gt;SEARCH&lt;/b&gt; button to reduce the display to matching results.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by collection&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results from the selected collection.&lt;/li&gt;
+	&lt;!--
+	&lt;li&gt;&lt;b&gt;Filter by status&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected status.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT USER&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; dialog where owners can be found by name search then selected to filter the search results. Select the CHANGE USER button to change the owner selected or select the CLEAR button to remove.&lt;/li&gt;
+	--&gt;
+	&lt;li&gt;&lt;b&gt;Filter by date modified&lt;/b&gt; &amp;mdash; select an option from the drop-down list then enter or select a date. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by resource type&lt;/b&gt; &amp;mdash; select a checkbox to display only matching resources.&lt;/li&gt;
+	&lt;!--
+	&lt;li&gt;&lt;b&gt;Filter by assignment&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results with the selected user assignment. Check &lt;b&gt;Only show tasks that I must moderate&lt;/b&gt; to display tasks that you must moderate.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by course&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT COURSE&lt;/b&gt; button to display the &lt;b&gt;Select a course&lt;/b&gt; dialog where courses can be found by name search then selected to filter the search results.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Activation range&lt;/b&gt; &amp;mdash; enter or select a date for end date, start date and activated to filter results. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by type&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected type.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filter by visibility&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected visibility.&lt;/li&gt;
+	--&gt;	
+&lt;/ul&gt;
+ 
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.search.searchsettings.settings.help">
+&lt;div id="helpMain" &gt;
+	&lt;h3&gt;Search settings&lt;/h3&gt;
+	&lt;p&gt;The Search settings page is used to configure the &lt;b&gt;Filter&lt;/b&gt; and &lt;b&gt;Sort&lt;/b&gt; boxes that appear on the Search pages.&lt;/p&gt;
+	&lt;p&gt;The default sorting can be configured and search filters based on resource MIME type can be configured and removed.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Default results order&lt;/b&gt; &amp;mdash; select the default ordering option from the drop-down list.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show the ‘Include non-live items’ checkbox&lt;/b&gt; &amp;mdash; check this checkbox to include any items that don’t have a Live status in the search results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Generate authenticated RSS and Atom feeds by default&lt;/b&gt; &amp;mdash; check this checkbox to require an active EQUELLA session to view RSS and Atom feeds of the search results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Add a new search filter&lt;/b&gt; &amp;mdash; select this button to display the Create new search filter page.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Search filter name&lt;/b&gt; &amp;mdash; select the filter name (or click the Edit link) to display the Edit search filter page.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Remove&lt;/b&gt; &amp;mdash; select this link to remove the filter after confirmation of the action.&lt;/li&gt;
+	&lt;/ul&gt;	
+	&lt;br&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreNavigation')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.workflow.portal.commonportletmoredivs">
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''tasksMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreAdministrators" style="display: none"&gt;
+	&lt;h3&gt;Further information for portlet administrators&lt;/h3&gt;
+	&lt;p&gt;The following controls are only displayed to portlet administrators:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Disabled&lt;/b&gt; &amp;mdash; disables the portlet and removes it from the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show for other users&lt;/b&gt; &amp;mdash check this checkbox to add this portlet to every user’s dashboard and enable the options:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Users can close&lt;/b&gt; &amp;mdash check this checkbox to allow users to remove the portlet from their dashboard.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Users can minimise&lt;/b&gt; &amp;mdash check this checkbox to allow users to reduce the portlet to its title bar.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Visible to&lt;/b&gt; &amp;mdash select the &lt;b&gt;CHANGE...&lt;/b&gt; button to restrict the portlet to selected users, roles or groups. The selected users, roles or groups are displayed.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+		
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''tasksMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.mimetypes.moreDetailsEdit">
+
+&lt;div id="moreDetailsEdit" style="display:none;"&gt;
+	&lt;h3&gt;More on editing MIME type Details&lt;/h3&gt;
+	
+	&lt;p&gt;To edit MIME type Details:&lt;/p&gt;
+		
+	&lt;ul&gt;
+		&lt;li&gt;Enter a description in the Description field for display with search result information.&lt;/li&gt;
+		&lt;li&gt;Enter or modify the MIME type.  Care should be used in modifying this field 
+			to avoid unintentionally creating a new or duplicate MIME type.&lt;/li&gt;
+		&lt;li&gt;Enter a file extension in the Extensions field then select the ADD button 
+			to associate a new file type with this MIME type.&lt;/li&gt;
+		&lt;li&gt;Select the &lt;input type="button" class="button" value="Browse"&gt; button to display the Choose File to Upload dialog then choose a new icon file then select the Open button.  
+			To complete editing the icon, select the &lt;input type="button" class="button" value="Upload"&gt; button.&lt;/li&gt;
+		&lt;li&gt;Select the &lt;input type="button" class="button" value="Save"&gt; button to store the modified fields, or select the &lt;input type="button" class="button" value="Cancel"&gt; button to discard any modified fields
+			and return to the MIME type editor page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.contribute.helppage">
+&lt;div id="helpMain" &gt;
+	&lt;h3&gt;Contribute&lt;/h3&gt;
+	&lt;p&gt;The Contribute page displays a list of collections available for the contribution of resources. Collections provide a grouping and structure for contributed resources so they can be managed, discovered and used within EQUELLA.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Collection links&lt;/b&gt; &amp;mdash; select a collection link to display a contribution wizard that will guide you through the contribution process.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreNavigation')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpMain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.customisation.commonmoredivs">
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''themeMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;	
+
+
+</entry>
+<entry key="com.tle.web.portal.standard.searchportleteditorhelp">
+&lt;div id="searchMain" &gt;
+	&lt;h3&gt;Edit Quick search portlet&lt;/h3&gt;
+	&lt;p&gt;The &lt;b&gt;Quick search&lt;/b&gt; portlet displays a keyword search for searching EQUELLA from the dashboard.&lt;p&gt;
+	
+	&lt;p&gt;To configure the portlet:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Title&lt;/b&gt; &amp;mdash; enter the portlet name displayed in the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Select save to create the portlet and display it on the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;Select cancel to discard any entered information and return to the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		{0}
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreNavigation" style="display: none"&gt;
+	&lt;h3&gt;More about the Navigation menu&lt;/h3&gt;
+	&lt;p&gt;The navigation menu is displayed on the left-hand side of the page and displays links for accessing and managing content. The menu comprises standard EQUELLA, browse, custom and administration links.
+	The links displayed depend on the privileges granted by the System Administrator.&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; links for accessing content and can include Dashboard, Favourites, Search, My resources, Contribute.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Browse links&lt;/b&gt; &amp;mdash; links for browsing EQUELLA topics. When more than five topics have been added the first four plus a &lt;b&gt;More...&lt;/b&gt; link are displayed.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; links for commonly accessed content that can be within EQUELLA or an external website.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administration links&lt;/b&gt; &amp;mdash; links for managing or configuring EQUELLA that can include Tasks, Manage resources, Manage activations, Reporting, Settings.
+		Select a navigation menu link to display the corresponding page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''searchMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id="moreAdministrators" style="display: none"&gt;
+	&lt;h3&gt;Further information for portlet administrators&lt;/h3&gt;
+	&lt;p&gt;The following controls are only displayed to portlet administrators:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Disabled&lt;/b&gt; &amp;mdash; disables the portlet and removes it from the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Show for other users&lt;/b&gt; &amp;mdash check this checkbox to add this portlet to every user’s dashboard and enable the options:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Users can close&lt;/b&gt; &amp;mdash check this checkbox to allow users to remove the portlet from their dashboard.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Users can minimise&lt;/b&gt; &amp;mdash check this checkbox to allow users to reduce the portlet to its title bar.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Visible to&lt;/b&gt; &amp;mdash select the &lt;b&gt;CHANGE...&lt;/b&gt; button to restrict the portlet to selected users, roles or groups. The selected users, roles or groups are displayed.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+		
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''searchMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.favourites.favportleteditorhelp">
+
+&lt;div id="favportletMain"&gt;
+	&lt;h3&gt;Edit Favourites portlet&lt;/h3&gt;
+	
+	&lt;p&gt;The &lt;b&gt;Favourites&lt;/b&gt; portlet provides access to all your favourite resources and searches.&lt;/p&gt; 
+	&lt;p&gt;To configure the portlet:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Title&lt;/b&gt; &amp;mdash; enter the portlet name displayed in the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Select save to create the portlet and display it on the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;Select cancel to discard any entered information and return to the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		{0}
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.favourites.helpfavouritesresources">
+&lt;div id="favMain" &gt;
+&lt;h3&gt;Favourite Resources Page&lt;/h3&gt;
+&lt;p&gt;This page is used to display resources that have been saved as favourites. Resources are displayed with resource information and options for viewing, commenting or removing the favourite. Searches and resources can be saved as favourites from search results or resource summary pages. 
+&lt;/p&gt;
+&lt;p&gt;Resources can be ordered or filtered using the Sort and Filter boxes. Select the Searches link to display favourite searches.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreFavResrcs')"&gt;More about Favourite resources...&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Other page features&lt;/h3&gt;
+
+  &lt;ul&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreNavMenu')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreSortBox')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreFilterBox')"&gt;More about the Filter box...&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFavResrcs" style="display: none"&gt;
+  &lt;h3&gt;More about Favourite resources...&lt;/h3&gt;
+  &lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Resource title&lt;/b&gt; &amp;mdash; select this link to display the resource.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; &amp;mdash; displays the resource status and the period since the last update.&lt;/li&gt;
+  &lt;li&gt;&amp;lt;x&amp;gt; &lt;b&gt;comments&lt;/b&gt; &amp;mdash; select this link to display the resource summary page where comments and ratings can be entered.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link to remove the resource from the favourites list.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('favMain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</entry>
+<entry key="com.tle.web.favourites.selection.helpfavouritesresources">
+&lt;div id="favMain" &gt;
+&lt;h3&gt;Favourite Resources Page&lt;/h3&gt;
+&lt;p&gt;This page is used to display resources that have been saved as favourites. Resources are displayed with resource information and options for viewing, commenting or removing the favourite. Searches and resources can be saved as favourites from search results or resource summary pages. 
+&lt;/p&gt;
+&lt;p&gt;Resources can be ordered or filtered using the Sort and Filter boxes. Select the Searches link to display favourite searches.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreFavResrcs')"&gt;More about Favourite resources...&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Other page features&lt;/h3&gt;
+  &lt;ul&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreSortBox')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+    &lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreFilterBox')"&gt;More about the Filter box...&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;h3&gt;Choose EQUELLA resources&lt;/h3&gt;
+	&lt;p&gt;Drag and drop resources to the required areas below or click the Select button to add the resource to the highlighted area. Click Save once selections are complete.&lt;/p&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFavResrcs" style="display: none"&gt;
+  &lt;h3&gt;More about Favourite resources...&lt;/h3&gt;
+  &lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Resource title&lt;/b&gt; &amp;mdash; select this link to display the resource.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; &amp;mdash; displays the resource status and the period since the last update.&lt;/li&gt;
+  &lt;li&gt;&amp;lt;x&amp;gt; &lt;b&gt;comments&lt;/b&gt; &amp;mdash; select this link to display the resource summary page where comments and ratings can be entered.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link to remove the resource from the favourites list.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('favMain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</entry>
+<entry key="com.tle.web.mimetypes.moreViewersEdit">
+
+&lt;div id="moreViewersEdit" style="display:none;"&gt;
+	&lt;h3&gt;More on editing MIME type Viewers&lt;/h3&gt;
+	
+	&lt;p&gt;To edit MIME type viewers:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;Select the Default radio button for the required viewer.&lt;/li&gt;
+		&lt;li&gt;Check the Enabled checkbox to enable any required viewers.&lt;/li&gt;
+		&lt;li&gt;Select the &lt;input type="button" class="button" value="Configure"&gt; button to display the Configure viewer dialog where further options are provided. 
+			&lt;a href="javascript:void(0)" onclick="switchText(''moreConfigureViewerEdit'')"&gt;More on the Configure viewer dialog...&lt;/a&gt;
+		&lt;/li&gt;
+		
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.hierarchy.browseportleteditorhelp">
+
+&lt;div id="helpMain"&gt;
+	&lt;h3&gt;Edit Browse portlet&lt;/h3&gt;
+	&lt;p&gt;The &lt;b&gt;Browse portlet&lt;/b&gt; provides access to categorised EQUELLA resources (configured by an administrator).&lt;p&gt;
+	
+	&lt;p&gt;To configure the portlet:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Title&lt;/b&gt; &amp;mdash; enter the portlet name displayed in the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Select save to create the portlet and display it on the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;Select cancel to discard any entered information and return to the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		{0}
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.searching.helppage">
+&lt;div id="helpMain" &gt;
+	&lt;h3&gt;Search&lt;/h3&gt;
+	&lt;p&gt;This page provides access to repository resources and functionality for viewing, sorting and filtering results. Enter a &lt;b&gt;Search&lt;/b&gt; term then select &lt;b&gt;SEARCH&lt;/b&gt; to display the matching resources. During a session this page displays the last search criteria and filters applied whenever the page is displayed.&lt;/p&gt;
+	&lt;p&gt;Select &lt;b&gt;Add search to favourites&lt;/b&gt; to save the search or select &lt;b&gt;Share search query&lt;/b&gt; to share the search with other users.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSearch'')"&gt;More about searching...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreAddFavorites'')"&gt;More about Add search to favourites...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreShare'')"&gt;More about Share search query...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt; 
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSortBox'')"&gt;More about the Sort box...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreFilterBox'')"&gt;More about the Filter box... &lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreSearch" style="display: none"&gt;
+	&lt;h3&gt;More about searching&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Search&lt;/b&gt; &amp;mdash; enter search terms.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Within&lt;/b&gt; &amp;mdash; select a collection, all resources, advanced search or the remote repository option from the drop-down list by clicking or navigating with the keyboard. Press &lt;kbd&gt;Esc&lt;/kbd&gt; or click out of the dropdown to close it.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;SEARCH&lt;/b&gt; &amp;mdash; select this button or press the &lt;kbd&gt;Enter&lt;/kbd&gt; key to display items that match the search criteria.&lt;/li&gt;
+	&lt;/ul&gt;	
+	&lt;p&gt;Search results can be displayed in groups of 10, 50 or 100 per page, with paging displayed at the end of the search results page. The information displayed for each match comprises:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Item title&lt;/b&gt; &amp;mdash; select this link to display the resource summary page.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; &amp;mdash; displays the resource status and when it was last updated.&lt;/li&gt;
+		&lt;li&gt;&lt;x&gt;&lt;b&gt;comments&lt;/b&gt; &amp;mdash; select this link to display the resource summary page where comments and ratings can be entered.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Add to favourites&lt;/b&gt; &amp;mdash; select this link to add the resource to the favourites list.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link to remove the resource from your favourites list. This link is only displayed for resources that have been added to your favourites list.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreAddRemoveFavourites'')"&gt;More about Add/Remove favourites…&lt;/a&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;	
+
+&lt;div id="moreAddRemoveFavourites" style="display:none"&gt;
+	&lt;h3&gt;More about Add/Remove favourites&lt;/h3&gt; 
+	&lt;p&gt;Resources can be added to your Favourites page for quick access.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Add to favourites&lt;/b&gt; &amp;mdash; select this link to display the Add to favourites dialog where tags can be entered to simplify searching. Select the resource version to display in the favourites page:
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Always use latest version&lt;/b&gt; &amp;mdash; select this option to use the latest version when the current version is superseded.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;This version&lt;/b&gt; &amp;mdash; select this option to use this version even when later versions are available.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/li&gt;
+		&lt;li&gt;Select ADD to add to your favourites resources list and return to the resource summary or CANCEL to return to the resource summary without creating a favourite.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Remove from favourites&lt;/b&gt; &amp;mdash; select this link then OK to confirm, to remove this resource from your favourites resources list.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreSearch'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreAddFavorites" style="display: none"&gt;
+	&lt;h3&gt;More about Add search to favourites&lt;/h3&gt;
+	&lt;p&gt;Searches can be saved for future use by adding them to the &lt;b&gt;Favourites&lt;/b&gt; page.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Add search to favourites&lt;/b&gt; &amp;mdash; select this button to display the &lt;b&gt;Add search to favourites&lt;/b&gt; dialog where a name must be entered to help identify the search. 
+		Select &lt;b&gt;ADD&lt;/b&gt; to save the search or &lt;b&gt;CANCEL&lt;/b&gt; to discard the search and return to the search results page.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id="moreShare" style="display: none"&gt;
+	&lt;h3&gt;More about Share search query&lt;/h3&gt;
+	&lt;p&gt;Search results can be shared with other users by sending them the search query for their use.&lt;/p&gt;
+	&lt;p&gt;&lt;b&gt;Share search query&lt;/b&gt; &amp;mdash; select this button to display the &lt;b&gt;Share search query&lt;/b&gt; dialog where results can be shared by:&lt;/P&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;RSS or Atom feed&lt;/b&gt; &amp;mdash; copy these options to a feed reader to be notified when the results list changes for this search.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Share search results via URL&lt;/b&gt; &amp;mdash; copy the displayed link URL to a document or email to share. When selected this link will require the user to log into EQUELLA to view the search results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Share search results via email&lt;/b&gt; &amp;mdash; enter an email address to send the search results by email to other users. &lt;b&gt;Check the Share only results viewable by guests&lt;/b&gt; when sending to non-EQUELLA users. &lt;/li&gt;
+		&lt;li&gt;Select &lt;img src="{0}"&gt; to close the dialog and display the results page.&lt;/li&gt;	
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreSortBox" style="display: none"&gt;
+	&lt;h3&gt;More about the Sort box&lt;/h3&gt; 
+	&lt;p&gt;The Sort box provides options for sorting results lists. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.&lt;/p&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Sort results by&lt;/b&gt; &amp;mdash; select an option from the drop-down list to change the sort order.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Reverse order of results&lt;/b&gt; &amp;mdash; check this checkbox to reverse the default sort order e.g. reverses a Title ordering from A-Z to Z-A.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreFilterBox" style="display: none"&gt;
+	&lt;h3&gt;More about the Filter box&lt;/h3&gt;
+	&lt;p&gt;The filter box provides options for reducing the number of displayed results. Select the &lt;img src="{1}"&gt; toggle button to maximise or minimise the box.
+	Multiple filters can be appliedand can include the following filters:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Filter by keyword&lt;/b&gt; &amp;mdash; enter a keyword then select the &lt;b&gt;SEARCH&lt;/b&gt; button to reduce the display to matching results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by collection&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results from the selected collection.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by status&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected status.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by owner&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT USER&lt;/b&gt; button to display the &lt;b&gt;Select owner to filter by&lt;/b&gt; dialog where owners can be found by name search then selected to filter the search results. Select the CHANGE USER button to change the owner selected or select the CLEAR button to remove.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by date modified&lt;/b&gt; &amp;mdash; select an option from the drop-down list then enter or select a date. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by resource type&lt;/b&gt; &amp;mdash; select a checkbox to display only matching resources.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by assignment&lt;/b&gt; &amp;mdash; select an option from the drop-down list to only display results with the selected user assignment. Check &lt;b&gt;Only show tasks that I must moderate&lt;/b&gt; to display tasks that you must moderate.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by course&lt;/b&gt; &amp;mdash; select the &lt;b&gt;SELECT COURSE&lt;/b&gt; button to display the &lt;b&gt;Select a course&lt;/b&gt; dialog where courses can be found by name search then selected to filter the search results.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Activation range&lt;/b&gt; &amp;mdash; enter or select a date for end date, start date and activated to filter results. Select &lt;b&gt;Clear&lt;/b&gt; to remove the date filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by type&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected type.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Filter by visibility&lt;/b&gt; &amp;mdash; select an option from the drop-down list to display results with the selected visibility.&lt;/li&gt;	
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''helpMain'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.viewitem.summary.summary.content.summary.help">
+&lt;div id="helpmain"&gt;
+	&lt;h3&gt;Resource summary&lt;/h3&gt;
+	&lt;p&gt;The resource summary page is used to view, comment and rate a resource. Resource owners and content managers	can also manage resources and resource versions.&lt;/p&gt;
+	&lt;p&gt;The main panel of the summary displays resource content, viewing options, ratings and comments.&lt;/p&gt; 
+	&lt;p&gt;Select a resource then a viewer option to display the resource.&lt;/p&gt;
+	&lt;p&gt;Select a rating, enter a comment then select &lt;b&gt;ADD COMMENT&lt;/b&gt; to rate the resource.&lt;/p&gt;
+	&lt;p&gt;Actions, further information and previous versions can be accessed using the &lt;b&gt;Details&lt;/b&gt; and &lt;b&gt;Actions&lt;/b&gt; area links.	
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreAction')"&gt;More about the Actions links...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreDetails')"&gt;More about the Details links...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt; 
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreNavigation')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreAddRemoveFavourites')"&gt;More about Add/Remove favourites...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreShare')"&gt;More about Share with others... &lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.portal.sysuser.noportlets.spiel">
+		&lt;p&gt;When logging in with a System account, Dashboard portlets, &lt;b&gt;HELP&lt;/b&gt; and &lt;b&gt;SCREEN OPTIONS&lt;/b&gt; buttons, are not enabled for the Welcome/Dashboard screen.&lt;/p&gt;
+		&lt;p&gt;To modify or delete Dashboard portlets seen by non-admin EQUELLA users, choose Settings from the navigation menu then Dashboard administration.&lt;/p&gt;
+	</entry>
+<entry key="com.tle.web.mimetypes.moreMime">
+
+&lt;div id="moreMime" style="display:none;"&gt;
+	&lt;h3&gt;More on MIME types&lt;/h3&gt;
+	
+	&lt;p&gt;To edit an existing MIME type:&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;Select the MIME type link, or alternatively select the &lt;button class="btn btn-equella btn-mini"&gt;&lt;i class="icon-pencil icon-white"&gt;&lt;/i&gt; Edit&lt;/button&gt; button, to display the Edit MIME type page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;To add a new MIME type:&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;Select the &lt;input class="add-mime action-button" type="button" value="Add MIME type" style="width: 200px"&gt; button to display the Add MIME type page.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;To delete an existing MIME type:&lt;/p&gt;
+	&lt;ul&gt; 
+		&lt;li&gt;Select the &lt;button class="btn btn-warning btn-mini"&gt;&lt;i class="icon-remove icon-white"&gt;&lt;/i&gt; Delete&lt;/button&gt; button immediately below the MIME type.&lt;/li&gt;
+		&lt;li&gt;Confirm the action to delete the MIME type from EQUELLA.&lt;/li&gt;
+	&lt;/ul&gt;
+	 
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.customisation.themesettingshelp">
+
+&lt;div id="themeMain" &gt;
+	&lt;h3&gt;Theme settings page&lt;/h3&gt;
+	&lt;p&gt;The Theme settings page is used to change the &lt;i&gt;‘look and feel’&lt;/i&gt; of the EQUELLA institution.&lt;/p&gt;
+	&lt;p&gt;Select &lt;b&gt;browse&lt;/b&gt; to choose a new theme file then &lt;b&gt;upload&lt;/b&gt; to change the EQUELLA theme.  Theme files comprise a ZIP archive of 
+	 images and style sheets overriding those from EQUELLA. It is important that image and style sheet names are identical to the existing names
+	 for the correct display of the theme.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.viewitem.summary.summary.content.summary.item.selection.details.help">
+&lt;div id="helpmain"&gt;
+	&lt;h3&gt;Details page&lt;/h3&gt;
+	&lt;p&gt;The Details tab displays further details of a resource as well as links to view other versions and moderation history. It also provides links to Actions that can be performed on the item (depending on user permissions), such as Edit, Clone, Delete etc. The available actions are the same as those on the EQUELLA resource summary page.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreAction')"&gt;More about the Actions links...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreDetails')"&gt;More about the Details links...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt; 
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.itemadmin.moreSelection">
+&lt;div id="moreSelection" style="display: none"&gt;
+	&lt;h3&gt;More on selection&lt;/h3&gt;
+	
+	&lt;p&gt;The selection panel enables selection and viewing of all resources appearing in the results list. The displayed links include:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;View selected items&lt;/b&gt; &amp;mdash; displays a dialog with a list of all selected resources. Deselect resources from this dialog by selecting the resource''s 
+			&lt;img src="{0}" alt="Remove"&gt; button. CLOSE the dialog to return to the Manage resources page. 
+			This link is only displayed when resources have been selected.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Unselect all items&lt;/b&gt; &amp;mdash; deselects all selected resources. This link is only displayed when resources have been selected.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Select all items in this search&lt;/b&gt; &amp;mdash; selects all resources in the results list.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.myresources.moreAddSearchFavourites">
+
+&lt;div id="moreAddSearchFavorites" style="display:none;"&gt;
+&lt;h3&gt;More about Add search to favourites&lt;/h3&gt;
+
+&lt;p&gt;Searches can be saved for future use by adding them to the &lt;b&gt;Favourites&lt;/b&gt; page.&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Add search to favourites&lt;/b&gt; &amp;mdash; select this button to display the &lt;b&gt;Add search to favourites&lt;/b&gt; dialog where a name must be entered to help identify the search. 
+	Select &lt;b&gt;ADD&lt;/b&gt; to save the search or &lt;b&gt;CANCEL&lt;/b&gt; to discard the search and return to the search results page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText(''main'')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.search.searchsettings.editfilter.help">
+&lt;div id="helpMain" &gt;
+	&lt;h3&gt;Edit search filter&lt;/h3&gt;
+	&lt;p&gt;The Edit search filter page is used to configure MIME type filters for search results.&lt;/p&gt;
+	&lt;p&gt;Enter a &lt;b&gt;Name&lt;/b&gt; then select MIME types from the list to create a filter that will display only resources of the selected MIME types in the search results.&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Name&lt;/b&gt; &amp;mdash; enter a name to distinguish the filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;MIME types&lt;/b&gt; &amp;mdash; check at least one MIME type.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Save&lt;/b&gt; &amp;mdash; select this button to display the Search settings page and save any changes to filter.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Cancel&lt;/b&gt; &amp;mdash; select this button to return to the Search settings page without saving the changes to the filter.&lt;/li&gt;
+	&lt;/ul&gt;	
+	&lt;br&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreNavigation')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.myresources.myresourceseditorhelp">
+
+&lt;div id="myresourcesMain"&gt;
+	&lt;h3&gt;Edit My resources portlet&lt;/h3&gt;
+	&lt;p&gt;The &lt;b&gt;My resources&lt;/b&gt; portlet displays resources you have created or categorised by their moderation status.&lt;p&gt;
+	
+	&lt;p&gt;To configure the portlet:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Title&lt;/b&gt; &amp;mdash; enter the portlet name displayed in the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Select save to create the portlet and display it on the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;Select cancel to discard any entered information and return to the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		{0}
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.workflow.portal.tasksportleteditorhelp">
+&lt;div id="tasksMain" &gt;
+	&lt;h3&gt;Edit Tasks portlet&lt;/h3&gt;
+	&lt;p&gt;The &lt;b&gt;Tasks&lt;/b&gt; portlet displays all outstanding moderation tasks assigned to you directly or to any associated user groups or roles.&lt;p&gt;
+	
+	&lt;p&gt;To configure the portlet:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Title&lt;/b&gt; &amp;mdash; enter the portlet name displayed in the portlet title bar.&lt;/li&gt;
+		&lt;li&gt;Select save to create the portlet and display it on the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+		&lt;li&gt;Select cancel to discard any entered information and return to the &lt;b&gt;Dashboard&lt;/b&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		{0}
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</entry>
+<entry key="com.tle.web.viewitem.summary.summary.content.versions.help">
+&lt;div id="helpmain"&gt;
+	&lt;h3&gt;Versions&lt;/h3&gt;
+	&lt;p&gt;The Versions page displays a list of resource versions and is accessible from the resource summary page.&lt;/p&gt;
+	&lt;p&gt;The main panel displays all previous versions of the resource and their status. Select a previous version to display the resource summary page for that version.&lt;/p&gt;
+	&lt;br&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreNavigation')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreAddRemoveFavourites')"&gt;More about Add/Remove favourites...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreShare')"&gt;More about Share with others... &lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreDetails')"&gt;More about Details links...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreAction')"&gt;More about Actions links...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+	</entry>
+<entry key="com.tle.web.customlinks.help.edit">
+&lt;div id="helpmain"&gt;
+	&lt;h3&gt;Edit custom links&lt;/h3&gt;
+	&lt;p&gt;The Edit custom link page is used to reconfigure an existing custom link.&lt;/p&gt;
+	&lt;p&gt;Enter &lt;b&gt;Display text&lt;/b&gt;, a relative or absolute &lt;b&gt;URL&lt;/b&gt; then &lt;b&gt;select users&lt;/b&gt;, groups or roles that can access the link. Once added the page must be refreshed (F5) to see the added link.&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreEdit')"&gt;More on editing or adding a link...&lt;/a&gt;&lt;/li&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText('moreonnavlinks')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+    &lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="moreEdit"  style="display: none"&gt;
+	&lt;h3&gt;Editing or adding a link&lt;/h3&gt;
+	&lt;p&gt;A custom link can have the following properties:&lt;p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Display text&lt;/b&gt; &amp;mdash; enter the name of the link to be displayed to users.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;URL&lt;/b&gt; &amp;mdash; enter an absolute or relative URL. Relative URLs will be resolved by appending to the server’s URL (e.g. '/fieldwork/report_writing.html' will become 'http://equella.myequellainstitution.edu/fieldwork/report_writing.html'.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Open in a new window&lt;/b&gt; &amp;mdash; check this checkbox to display the URL in a new browser window.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Who can view this URL&lt;/b&gt; &amp;mdash; click the &lt;b&gt;select users...&lt;/b&gt; button to display the &lt;b&gt;Select recipients&lt;/b&gt; dialog where users can be selected.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Upload an icon&lt;/b&gt; &amp;mdash; &lt;b&gt;browse&lt;/b&gt; to then select the icon file. &lt;b&gt;upload&lt;/b&gt; the icon to EQUELLA and display it on this page at the icon size.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;download&lt;/b&gt; &amp;mdash; select this button to download the icon used at the entered URL. &lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;remove icon&lt;/b&gt; &amp;mdash; select this button to remove the displayed icon.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;save&lt;/b&gt; &amp;mdash; save any changes to this link and return to the custom links page.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;cancel&lt;/b&gt; &amp;mdash; discard any changes and return to the custom links page.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="moreonnavlinks" style="display: none"&gt;
+	&lt;h3&gt;Navigation menu&lt;/h3&gt;
+	&lt;p&gt;
+		The navigation menu is displayed on the left-hand side of the page and display links for accessing content that include standard EQUELLA
+		links and system links configured by the administrator. The links displayed depend on the privileges granted by the System Administrator.
+	&lt;/p&gt;
+	
+	&lt;p&gt;Navigation menu links can include:&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;b&gt;Standard links&lt;/b&gt; &amp;mdash; Dashboard, Search, Contribute, Favourites, My resources.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Custom links&lt;/b&gt; &amp;mdash; Administrator configurable links that can be an alternative to a portlet when access to content is required. Add custom links to the navigation menu by selecting Settings from the navigation menu then Edit custom links.&lt;/li&gt;
+		&lt;li&gt;&lt;b&gt;Administrator links&lt;/b&gt; &amp;mdash; Settings, Manage resources.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;p&gt;&lt;a href="javascript:void(0)" onclick="switchText('helpmain')"&gt;&lt;b&gt;Back&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+	</entry>
+<entry key="com.tle.web.mimetypes.main">
+&lt;div id="main" &gt;
+	&lt;h3&gt;MIME type editor&lt;/h3&gt;
+	
+	&lt;p&gt;The MIME type editor page by default displays a list of all file MIME types and associated file extensions. 
+	MIME types are used to distinguish different file types.&lt;/p&gt;
+	
+	&lt;p&gt;To refine the MIME type list:&lt;/p&gt;
+	
+	&lt;ul&gt;
+		&lt;li&gt;Enter a term in the Search field then select Search to display the list of MIME types matching the entered term.&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;p&gt;MIME types can be created, edited and deleted from this page.  &lt;a href="javascript:void(0)" onclick="switchText(''moreMime'')"&gt;More on MIME types...&lt;/a&gt;&lt;/p&gt;
+	
+	&lt;br&gt;
+	&lt;h3&gt;Other page features&lt;/h3&gt;
+	 		 
+	&lt;ul&gt;
+		&lt;li style="float: left"&gt;&lt;a href="javascript:void(0)" onclick="switchText(''moreNavigation'')"&gt;More about the Navigation menu...&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="clear: both;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</entry>
+</properties>
